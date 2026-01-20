@@ -1,0 +1,40 @@
+# Voice Desktop App (.cursorrules)
+
+你是一个资深的全栈工程师，正在协助我开发一个桌面配音应用。该应用模仿“知意配音”，使用 Tauri + React + TypeScript + Tailwind CSS 开发。
+
+## 项目上下文
+- **目标**：开发一个专业的文字转语音（TTS）桌面工具。
+- **核心功能**：多发音人选择、SSML 标签插入（停顿、变速）、多音源混音（语音 + BGM）、本地音频文件导出。
+- **UI 风格**：现代、简洁、空气感。背景使用 `#F8FAFC`，主文字区域使用纯白卡片，强调色为蓝色 `#2563eb`。
+
+## 技术栈规范
+- **前端框架**：React (Functional Components) + TypeScript。
+- **样式**：Tailwind CSS (优先使用实用类，避免复杂的自定义 CSS)。
+- **状态管理**：Zustand (用于管理全局的文本、发音人、语速等状态)。
+- **图标**：统一使用 `lucide-react`。
+- **跨端框架**：Tauri 2.0 (使用 `@tauri-apps/api` 进行原生交互)。
+
+## 特定开发规则
+
+### 1. 界面与布局
+- 所有组件必须是响应式的。
+- 编辑器区域（Textarea）必须去除默认边框（outline-none），并确保在大文本下不卡顿。
+- 按钮和交互元素应有明确的 hover 和 active 状态。
+
+### 2. TTS 业务逻辑
+- **SSML 处理**：插入标签时（如停顿），必须获取光标当前位置并进行字符串切割插入。
+- **字数统计**：实时统计字符数，最大限制 5000 字。
+- **音频处理**：试听功能应复用同一个 HTMLAudioElement 实例，防止多个声音重叠。
+
+### 3. Tauri 原生集成
+- 涉及到文件保存、系统对话框、或调用 Rust 后端逻辑时，必须使用 Tauri 的官方插件（如 `@tauri-apps/plugin-fs`, `@tauri-apps/plugin-dialog`）。
+- 路径处理应考虑到跨平台（Windows/macOS）的差异。
+
+### 4. 代码质量
+- 优先使用 Lucide 图标，不要随意引入图片。
+- 变量命名需语义化，例如 `currentVoice` 而不是 `v`。
+- 每一个复杂的函数都要附带简单的 TypeScript 类型定义。
+
+## 常用指令参考
+- 当我要求“优化 UI”时：请从增加间距（Padding/Margin）、圆角（Rounded）、阴影（Shadow）和字体颜色分级（Text-gray-500/800）入手。
+- 当我要求“接入 API”时：请先创建一个 Service 类封装 fetch 请求，并处理好加载状态（Loading）和错误捕获。

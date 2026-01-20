@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+/* 变速标记容器 */
+.speed-marker-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+/* 变速标签（黄色胶囊） - 作为相对定位容器 */
+.speed-badge {
+  position: absolute;
+  top: -22px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background-color: #FCD34D;
+  /* yellow-300 */
+  color: #78350F;
+  /* yellow-900 */
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  white-space: nowrap;
+  cursor: default;
+  z-index: 10;
+}
+
+/* 速度值文本 */
+.speed-value {
+  line-height: 1.2;
+}
+
+/* 箭头图标 - 始终显示，可点击 */
+.speed-arrow {
+  width: 12px;
+  height: 12px;
+  stroke: currentColor;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.speed-arrow:hover {
+  transform: scale(1.2);
+}
+
+/* 关闭按钮（默认隐藏，圆形灰色背景，定位在胶囊外部上方） */
+.speed-close {
+  display: none;
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  width: 16px;
+  height: 16px;
+  background-color: #9CA3AF;
+  /* gray-400 */
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  z-index: 20;
+}
+
+.speed-close:hover {
+  background-color: #6B7280;
+  /* gray-500 */
+  transform: scale(1.15);
+}
+
+/* 鼠标悬停时显示关闭按钮（箭头保持显示） */
+.speed-badge:hover .speed-close {
+  display: block;
+}
+
+/* 变速文字 */
+.speed-text {
+  display: inline;
+}
