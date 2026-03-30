@@ -1,0 +1,103 @@
+name: Desktop Builds
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: ${{ matrix.label }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - label: Linux x64
+            os: ubuntu-latest
+            runner_platform: linux
+            runner_arch: x64
+            electron_args: --linux --x64
+            artifact_name: lingjing-linux-x64
+          - label: macOS Intel
+            os: macos-13
+            runner_platform: darwin
+            runner_arch: x64
+            electron_args: --mac --x64
+            artifact_name: lingjing-macos-intel
+          - label: macOS Apple Silicon
+            os: macos-14
+            runner_platform: darwin
+            runner_arch: arm64
+            electron_args: --mac --arm64
+            artifact_name: lingjing-macos-apple-silicon
+
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: tauri-app/package-lock.json
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install desktop dependencies
+        working-directory: tauri-app
+        run: npm ci
+
+      - name: Install Python packaging dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt pyinstaller
+
+      - name: Prepare packaged runtime binaries
+        run: |
+          mkdir -p "tauri-app/build-resources/bin/${{ matrix.runner_platform }}/${{ matrix.runner_arch }}"
+          python -m PyInstaller \
+            --onefile \
+            --clean \
+            --name tts_wrapper \
+            --distpath "tauri-app/build-resources/bin/${{ matrix.runner_platform }}/${{ matrix.runner_arch }}" \
+            --workpath ".pyinstaller/build/${{ matrix.artifact_name }}" \
+            --specpath ".pyinstaller/spec/${{ matrix.artifact_name }}" \
+            python/tts_wrapper.py
+
+          pushd tauri-app >/dev/null
+          FFMPEG_PATH=$(node -p "require('@ffmpeg-installer/ffmpeg').path")
+          popd >/dev/null
+          cp "$FFMPEG_PATH" "tauri-app/build-resources/bin/${{ matrix.runner_platform }}/${{ matrix.runner_arch }}/ffmpeg.exe"
+
+          if [ -f "tauri-app/build-resources/bin/${{ matrix.runner_platform }}/${{ matrix.runner_arch }}/tts_wrapper" ]; then
+            mv "tauri-app/build-resources/bin/${{ matrix.runner_platform }}/${{ matrix.runner_arch }}/tts_wrapper" \
+              "tauri-app/build-resources/bin/${{ matrix.runner_platform }}/${{ matrix.runner_arch }}/tts_wrapper.exe"
+          fi
+
+          chmod +x "tauri-app/build-resources/bin/${{ matrix.runner_platform }}/${{ matrix.runner_arch }}/ffmpeg.exe"
+          chmod +x "tauri-app/build-resources/bin/${{ matrix.runner_platform }}/${{ matrix.runner_arch }}/tts_wrapper.exe"
+
+      - name: Build renderer
+        working-directory: tauri-app
+        run: npm run build:skip-tsc
+
+      - name: Build Electron package
+        working-directory: tauri-app
+        run: npx electron-builder --config electron-builder.config.cjs ${{ matrix.electron_args }}
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.artifact_name }}
+          path: tauri-app/release_v2_new/*
+          if-no-files-found: error

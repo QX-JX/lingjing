@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import type { Editor } from '@tiptap/react';
 import type { TextEditorRef } from './TextEditor';
+import { t } from '../locales';
 
 interface SpeedDropdownProps {
   isOpen: boolean;
@@ -9,7 +10,7 @@ interface SpeedDropdownProps {
   position: { x: number; y: number };
   currentSpeed?: number;
   editor?: Editor | null;
-  textEditorRef?: React.RefObject<TextEditorRef> | null;
+  textEditorRef?: React.RefObject<TextEditorRef | null> | null;
 }
 
 // 变速倍率选项（用于标记选中文本的播放速度）
@@ -56,7 +57,7 @@ export function SpeedDropdown({
       } else {
         // 没有选中文本，提示用户
         console.warn('[SpeedDropdown] TipTap 编辑器 - 没有选中文本');
-        alert('请先选中要变速的文本');
+        alert(t('toast.selectTextForSpeed'));
         onClose();
         return;
       }
@@ -82,7 +83,7 @@ export function SpeedDropdown({
       } else {
         // 没有选中文本，提示用户
         console.warn('[SpeedDropdown] 没有选中文本');
-        alert('请先选中要变速的文本');
+        alert(t('toast.selectTextForSpeed'));
         onClose();
         return;
       }
@@ -112,12 +113,24 @@ export function SpeedDropdown({
     };
   }, [isOpen, onClose]);
 
+  // ESC 键关闭
+  useEffect(() => {
+    if (!isOpen) return;
+    const handleEscape = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        onClose();
+      }
+    };
+    document.addEventListener('keydown', handleEscape);
+    return () => document.removeEventListener('keydown', handleEscape);
+  }, [isOpen, onClose]);
+
   if (!isOpen) return null;
 
   return (
     <div
       ref={dropdownRef}
-      className="fixed z-50 bg-white rounded-lg shadow-xl border border-gray-100 py-1.5 min-w-[100px] animate-in fade-in zoom-in duration-200"
+      className="fixed z-50 bg-white rounded-lg shadow-xl border border-gray-100 py-1.5 w-[70px] animate-in fade-in zoom-in duration-200"
       style={{
         left: `${position.x}px`,
         top: `${position.y}px`,
@@ -134,7 +147,7 @@ export function SpeedDropdown({
           <button
             key={option.value}
             onClick={() => handleSpeedSelect(option.value)}
-            className="w-full px-4 py-2 text-center text-sm transition-colors duration-150 text-gray-700 hover:bg-gray-100"
+            className="w-full px-2 py-2 text-center text-sm transition-colors duration-150 text-gray-700 hover:bg-gray-100"
           >
             <span>{option.label}</span>
           </button>

@@ -1,0 +1,16 @@
+.app-shell,
+.main-content {
+  width: 100%;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}

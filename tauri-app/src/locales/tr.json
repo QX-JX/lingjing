@@ -1,0 +1,263 @@
+{
+  "app": {
+    "name": "Ruh Manzarası Seslendirme",
+    "subtitle": "Kunqiong AI bünyesindeki ürün"
+  },
+  "header": {
+    "login": "Oturum aç",
+    "loggingIn": "Oturum açılıyor...",
+    "logout": "Mevcut hesaptan çıkış yap",
+    "closeWindow": "Pencereyi kapat",
+    "settings": "Ayarlara git",
+    "minimize": "Minimize et",
+    "maximize": "Maksimize et",
+    "restore": "Geri yükle",
+    "close": "Kapat"
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "officialWebsite": "Resmi web sitesi",
+    "noOfficialWebsite": "Henüz resmi web sitesi adresi yok",
+    "feedback": "Sorun bildir",
+    "checkUpdate": "Güncellemeleri kontrol et",
+    "checking": "Kontrol ediliyor...",
+    "close": "Kapat",
+    "language": "Dil"
+  },
+  "update": {
+    "foundNew": "{version} sürümü yeni bir güncelleme bulundu!",
+    "currentVersion": "Mevcut sürüm {version}",
+    "updateContent": "Güncelleme içeriği:",
+    "updateLater": "Daha sonra güncelle",
+    "updateNow": "Hemen güncelle",
+    "alreadyLatest": "Tebrikler, şu anda en son sürümdesiniz"
+  },
+  "login": {
+    "waiting": "Oturum açma bekleniyor",
+    "completeInBrowser": "Lütfen oturum açma işlemini tarayıcıda tamamlayın",
+    "cancelLogin": "Oturum açmayı iptal et",
+    "loggedIn": "Kunqiong hesabına giriş yapıldı"
+  },
+  "toolbar": {
+    "undo": "Geriyi al",
+    "redo": "Yeniden yap",
+    "clear": "Temizle",
+    "copy": "Kopyala",
+    "insertPause": "Durak ekle",
+    "speedChange": "Hızı değiştir",
+    "reread": "Tekrar oku",
+    "numericReading": "Sayı okuma",
+    "multipleSpeakers": "Çoklu seslendirici",
+    "polyphonic": "Çok anlamlı karakter",
+    "specialEffects": "Efekt sesleri",
+    "backgroundMusic": "Arka plan müziği",
+    "import": "İçe aktar",
+    "historyBackup": "Geçmiş yedeği"
+  },
+  "clear": {
+    "clearAll": "Tüm içeriği temizle",
+    "clearFormatOnly": "Sadece biçimlendirmeyi temizle"
+  },
+  "pause": {
+    "title": "Durak süresi"
+  },
+  "speed": {
+    "title": "Hızı değiştir"
+  },
+  "numberReading": {
+    "title": "Sayı okuma",
+    "digits": "Rakamları oku",
+    "digitsDesc": "Örneğin: 123 \"bir iki üç\" şeklinde okunur",
+    "cardinal": "Değerini oku",
+    "cardinalDesc": "Örneğin: 123 \"yüz yirmi üç\" şeklinde okunur",
+    "telephone": "Numarayı oku",
+    "telephoneDesc": "Örneğin: 123 \"bir iki üç\" şeklinde okunur"
+  },
+  "polyphone": {
+    "pronunciation": "\"{char}\" nin telaffuzu"
+  },
+  "voice": {
+    "selectVoice": "Seslendirici seç",
+    "more": "Daha fazla",
+    "voiceSettings": "Seslendirici ayarları",
+    "speed": "Konuşma hızı",
+    "volume": "Ses seviyesi",
+    "pitch": "ses tonu",
+    "low": "düşük",
+    "high": "yüksek",
+    "small": "küçük",
+    "large": "büyük",
+    "preview": "önizleme",
+    "stopPreview": "önizlemeyi durdur",
+    "apply": "uygula",
+    "cancel": "iptal",
+    "loadingVoices": "ses sanatçıları listesi yükleniyor..."
+  },
+  "soundEffect": {
+    "title": "efekt sesleri",
+    "musicList": "müzik listesi",
+    "localImport": "yerel içe aktarma",
+    "searchPlaceholder": "arka plan müziği adını girin",
+    "noResults": "eşleşen efekt sesi bulunamadı",
+    "noEffects": "henüz efekt sesi yok",
+    "uploadHint": "(lütfen 1 MB'den küçük mp3 ses dosyası yükleyin)",
+    "uploading": "yüklüyor...",
+    "uploadFromLocal": "+ yerelden içe aktar",
+    "totalEffects": "{count} efekt sesi toplam",
+    "manage": "yönet",
+    "play": "oynat",
+    "favorite": "favorilere ekle",
+    "unfavorite": "favorilerden kaldır",
+    "delete": "sil",
+    "confirmDelete": "«{name}» efekt sesini silmek istediğinizden emin misiniz?"
+  },
+  "backgroundMusic": {
+    "title": "arka plan müziği",
+    "musicList": "müzik listesi",
+    "localImport": "yerel içe aktarma",
+    "noBgm": "arka plan müziği yok",
+    "preview": "Deneme",
+    "stopPreview": "Denemeyi durdur",
+    "remove": "Arka plan müziğini kaldır",
+    "volume": "Ses seviyesi",
+    "uploadLocalMusic": "Yerel müzik yüklemek için tıklayın",
+    "supportFormat": "MP3 formatını destekler, maksimum 10 MB",
+    "selectMp3": "Lütfen MP3 formatındaki ses dosyasını seçin",
+    "fileTooLarge": "Dosya boyutu 10 MB'ı aşamaz",
+    "uploadSuccess": "Arka plan müziği başarıyla yüklendi",
+    "uploadFailed": "Yükleme başarısız: {error}"
+  },
+  "import": {
+    "title": "Metin içe aktarma",
+    "uploadDocument": "Belge yükle",
+    "clickToUpload": "Yükleme için tıklayın",
+    "supportFormat": "txt, doc, docx formatlarını destekler, 2M'den küçük",
+    "processing": "Dosya işleniyor...",
+    "fileEmpty": "Dosya boş",
+    "fileEmptyAfterClean": "Dosya boş veya yalnızca boşluk karakterlerinden oluşuyor",
+    "truncated": "Metin otomatik olarak kesildi: {original} karakter → {final} karakter (maksimum {max} karakter)",
+    "appendOrOverwrite": "Mevcut metne eklemek istiyor musunuz?\n\nİçe aktarılan metnin görünür karakter sayısı: {count} / {max}\n\"Tamam\"ı tıklayarak ekle, \"İptal\"i tıklayarak üzerine yazın",
+    "invalidFormat": "Desteklenmeyen dosya formatı. Lütfen txt, doc veya docx dosyaları yükleyin",
+    "fileTooLarge": "Dosya boyutu 2 MB'ı aşamaz",
+    "selectDocument": "Belge seçin",
+    "uploadDocxHint": "doc/docx dosyaları lütfen dosya açma penceresinden seçerek içe aktarın",
+    "importFailed": "İçe aktarma başarısız: {error}",
+    "openDialogFailed": "Dosya açma penceresi açılamadı"
+  },
+  "history": {
+    "title": "Geçmiş",
+    "total": "Toplam {count} adet",
+    "search": "Geçmişi ara...",
+    "clearAll": "Tümünü temizle",
+    "loading": "Yükleniyor...",
+    "noRecords": "Henüz geçmiş kaydı yok",
+    "noMatchRecords": "Eşleşen kayıt bulunamadı",
+    "loadSuccess": "Geçmiş kayıtları yüklendi",
+    "loadFailed": "Geçmiş kayıtlarının yüklenmesi başarısız oldu",
+    "deleteSuccess": "Silme başarılı",
+    "deleteFailed": "Silme başarısız",
+    "clearSuccess": "Tüm geçmiş kayıtları temizlendi",
+    "clearFailed": "Temizleme başarısız",
+    "confirmDelete": "Bu geçmiş kaydını silmek istediğinizden emin misiniz?",
+    "confirmClearAll": "Tüm geçmiş kayıtlarını silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+    "clickToRestore": "Kayda tıklayarak düzenleyiciye geri dönebilirsiniz · En fazla 100 kayıt kaydedilebilir",
+    "characters": "Karakter",
+    "blank": "Boş belge",
+    "unnamed": "Adlandırılmamış kayıt"
+  },
+  "statusBar": {
+    "preview": "Deneme dinlemesi",
+    "pause": "Duraklat",
+    "generating": "Oluşturuluyor... %{percent}",
+    "cancel": "İptal",
+    "export": "Dosyayı dışa aktar",
+    "exporting": "Dışa aktarılıyor...",
+    "exportSuccess": "Dışa aktarma başarılı!",
+    "estimatedDuration": "Tahmini süre: {duration}",
+    "charCount": "{count}/5000"
+  },
+  "textEditor": {
+    "placeholder": "Lütfen metni girin...",
+    "maxLengthReached": "Maksimum karakter sınırına ulaşıldı"
+  },
+  "auth": {
+    "title": "Kunqiong AI Toolbox・Yazılım Lisans Doğrulaması",
+    "description": "Şu anda kurulumu yapılan araç, Kunqiong AI Toolbox ekosistemi uygulamasıdır ve tam özelliklerini kullanabilmek için Toolbox lisans koduyla etkinleştirilmesi gerekmektedir.",
+    "placeholder": "Lütfen Kunqiong AI Toolbox lisans kodunu girin",
+    "verify": "Doğrula ve etkinleştir",
+    "verifying": "Doğrulanıyor...",
+    "getAuthCode": "Yetkilendirme kodu alınmadı mı? Buraya tıklayın",
+    "inputAuthCode": "Lütfen yetkilendirme kodunu girin",
+    "invalidAuthCode": "Yetkilendirme kodu geçersiz veya süresi dolmuş. Lütfen yeniden alın",
+    "verifyFailed": "Doğrulama başarısız oldu. Lütfen ağ bağlantınızı kontrol edin"
+  },
+  "ad": {
+    "clickToView": "Görüntülemek için tıklayın"
+  },
+  "toast": {
+    "copied": "Metin panoya kopyalandı",
+    "copyFailed": "Kopyalama başarısız oldu. Lütfen tekrar deneyin",
+    "noText": "Kopyalanacak metin bulunmuyor",
+    "selectTextForSpeed": "Hızlandırma yapmak istediğiniz metni lütfen önce seçin",
+    "selectTextForReread": "Yeniden okuma eklemek istediğiniz metni lütfen önce seçin",
+    "selectNumber": "Sayı okuması eklemek istediğiniz sayıyı lütfen önce seçin",
+    "onlyChinese": "Sadece Çince desteklenir! Lütfen sadece Çince metin seçin",
+    "onlyNumber": "Sadece sayılar seçilebilir! Bu özelliği kullanmak için lütfen sadece sayıları seçin",
+    "selectChar": "Lütfen önce bir Han karakterini seçin",
+    "singleCharOnly": "Lütfen tek karakter tanımlaması kullanın",
+    "selectChineseChar": "Lütfen Han karakteri seçin",
+    "notPolyphone": "Mevcut karakter çok sesli değildir",
+    "selectTextForVoice": "Öncelikle seslendirmesini belirtmek istediğiniz metni seçin",
+    "editorNotInitialized": "Düzenleyici başlatılmamış",
+    "textTooLong": "Metin uzunluğu sınırı aşıyor ({count} / {max})",
+    "cleared": "Tüm içerikler temizlendi",
+    "formatCleared": "Formatlar temizlendi, yalnızca düz metin bırakıldı",
+    "noContentToKeep": "Bırakılacak metin içeriği bulunmuyor",
+    "authCheckFailed": "Yetkilendirme kontrolü başarısız oldu. Lütfen ağ bağlantınızı kontrol edin",
+    "noTextInput": "Lütfen önce metin girin"
+  },
+  "error": {
+    "networkError": "Ağ bağlantısı başarısız oldu, ses oluşturulamadı.\n\nOlası nedenler:\n• Ağ bağlantısı kararsız\n• Güvenlik duvarı bağlantı engelliyor\n• Azure TTS hizmeti geçici olarak kullanılamıyor\n\nÖneriler:\n• Ağ bağlantınızı kontrol edin\n• Daha sonra tekrar deneyin",
+    "timeout": "Üretim zaman aşımına uğradı. Lütfen şunları deneyin:\n• Metin uzunluğunu kısaltın\n• Ağ hızınızı kontrol edin\n• Daha sonra tekrar deneyin",
+    "longTextTimeout": "Üretim zaman aşımına uğradı (metin uzunluğu: {count} karakter).\n\nUzun metinlerin işlenmesi daha fazla zaman alır. Lütfen şunları deneyin:\n• Daha uzun süre bekleyin (uzun metinler 5-10 dakika kadar sürebilir)\n• Metni parçalara ayırarak oluşturun (her seferde en fazla 1000 karakter)\n• Ağ hızınızı kontrol edin\n• Daha sonra tekrar deneyin",
+    "segmentFailed": "Uzun metnin parça parça işlenmesi başarısız oldu.\n\nÖneriler:\n• Ağ bağlantınızın kararlı olup olmadığını kontrol edin\n• Metin uzunluğunu kısaltmayı deneyin\n• Ses dosyalarını ayrı ayrı oluşturduktan sonra manuel olarak birleştirin",
+    "exportError": "Dışa aktarma başarısız oldu: {error}",
+    "exportNetworkError": "Ağ bağlantısı başarısız, ses oluşturulamadı. Lütfen ağ bağlantınızı kontrol ederek tekrar deneyin.",
+    "exportTimeout": "Oluşturma zaman aşımına uğradı, lütfen metni kısaltmaya çalışın veya daha sonra tekrar deneyin.",
+    "exportLongTextTimeout": "Oluşturma zaman aşımına uğradı (metin uzunluğu: {count} karakter). Uzun metinlerin işlenmesi daha uzun sürebilir, lütfen bekleyin veya metni bölerek oluşturmaya çalışın.",
+    "longTextDetected": "Uzun metin tespit edildi ({count} karakter), eşzamanlı olarak işlenecek (yaklaşık {segments} bölüm), lütfen bekleyin...",
+    "cancelSuccess": "Oluşturma iptal edildi"
+  },
+  "voices": {
+    "zhiwei": "Yunxi (Erkek)",
+    "xiaoyu": "Xiaoxiao (Kadın)",
+    "xiaofeng": "Yunye (Erkek)",
+    "xiaomei": "Xiaoyi (Kadın)",
+    "yunjian": "Yunjian (Erkek)",
+    "yunxia": "Yunxia (Kadın/Çocuk)",
+    "xiaobei": "Xiaobei (Kadın) - Kuzeydoğu Çince",
+    "xiaoni": "Xiaoni (Kadın) - Shaanxi Çincesi",
+    "wanlong": "Yunlong (Erkek) - Hong Kong",
+    "hiugaai": "Xiaojia (Kadın) - Hong Kong Kantonesi",
+    "hiumaan": "Xiaoman (Kadın) - Hong Kong",
+    "yunjhe": "Yunzhe (Erkek) - Tayvan",
+    "hsiaochen": "Xiaochen (Kadın) - Tayvan",
+    "hsiaoyu": "Xiaoyu (Kadın) - Tayvan",
+    "description": {
+      "zhiwei": "Canlı ve dinamik, güneşli, enerjik ve hayat dolu. Animasyon anlatıcıları, kısa video açıklamaları, romanlardaki genç karakterler ve rahat eğitim videoları için uygundur.",
+      "xiaoyu": "Her türlü duyguyu ifade edebilen, yumuşak, samimi ve doğal bir ses kalitesine sahip. Sesli romanlar, film/yayın yorumları, duygusal radyo programları, müşteri hizmetleri robotları ve uzun metin okumaları için idealdir.",
+      "xiaofeng": "Profesyonel ve sağlam, güçlü, profesyonel ve çekici bir ses tonuna sahip; geleneksel radyo haber spikerlerine benzer. Haber bültenleri, belgesel anlatıcıları, kurumsal tanıtım filmleri, ciddi akademik konferanslar ve siyasi yorumlar için uygundur.",
+      "xiaomei": "Nazik ve tatlı, temiz, şeker gibi tatlı ve kibar bir sesle konuşur; profesyonel bir hizmet personeli ya da cana yakın bir abla gibi. Online müşteri hizmetleri, sesli asistanlar, çocuk masalları, alışveriş merkezi anonsları ve günlük yaşam hatırlatıcıları için uygundur.",
+      "yunjian": "Heyecan verici, hızlı konuşan, güçlü ve sportif bir ses tonuna sahip; coşkulu ve etkileyici bir ses. Spor müsabakalarının anlatımı, rekabetçi oyun yorumları, promosyon reklamları ve \"hırçın\" tarzda kısa video anlatımları için uygundur.",
+      "yunxia": "Sevimli ve çocuksu, naif, saf ve sevimli; tipik bir çocuk sesi. Erken çocukluk eğitimi, çocuk kitaplarının seslendirilmesi, animasyonların küçük yaş grubu karakterleri ve sevimli hayvan videoları için idealdir.",
+      "xiaobei": "Cömert, komik ve içten; Kuzeydoğu Çinlilerine özgü mizah ve etkileyici bir hava taşır. Çok samimi ve sıcak bir his verir. Komik skeçler, günlük vloglar, Kuzeydoğu Çin'inde geçen hikayeler ve marka tanıtımlarında kullanılmak üzere canlı yayınlar için uygundur.",
+      "xiaoni": "Sade, ciddi ve manidar; Kuzeybatı Çin'in yerel ruhunu yansıtır. Duygularını güçlü bir şekilde ifade eder. Tarihi ve kültürel yerlerin tanıtımı (örneğin Xi'an turizmi), yöresel lezzetlerin tanıtımı ve Kuzeybatı Çin köy yaşamını anlatan film/yayın yorumları için uygundur.",
+      "wanlong": "Olgun, sakin ve iş odaklı; tipik Hong Kong elit havasına sahip bir ses tonu ve standart, profesyonel bir telaffuz. Finansal haberlerin sunumu, kurumsal tanıtım filmleri ve Hong Kong ticaret savaşlarını anlatan dizilerde kullanılabilir.",
+      "hiugaai": "Yumuşak, entelektüel ve otantik; son derece standart bir Kantonez telaffuzu ve doğal bir konuşma ritmi. Kantonez dilini konuşan bölgelerdeki haberler, radyo programları ve günlük yaşam bilgileri için uygundur.",
+      "hiumaan": "Zarif, soğukkanlı ve okuma kültürünü yansıtan bir ses; Xiaojia'ya göre daha bilgili ve dingin bir konuşmacı gibi. Sesli kitaplar, belgesel anlatımları ve lüks marka reklamları için uygundur.",
+      "yunjhe": "Şefkatli, zarif, 'sütümsü' bir hava, tipik Tayvanlı erkek aksanı; tonlaması sakin ve saldırgan değil. Şifa veren kısa videolar, gençlik idol dizileri yorumları, duygusal radyo programları ve günlük yaşam ipuçları hatırlatmaları için uygundur",
+      "hsiaochen": "Tatlı, güneşli ve enerjik; içten ve neşeli bir komşu kız gibi hoş ve sempatik bir ses. Eğlence haberleri, eğlence programlarının anlatımı, gençlere yönelik Vloglar ve sabah alarmı için idealdir",
+      "hsiaoyu": "Profesyonel, net ve aydınlanmış; tipik 'Tayvan Mandarin'i sunucu tarzı. Kelimeleri çok net biçimde telaffuz eder ve son derece samimi bir etkisi vardır. Eğitim içerikli videolar, çevrimiçi ders anlatımları, akıllı ses asistanları ve resmi ortamlarda sesli yönlendirmeler için uygundur"
+    }
+  }
+}

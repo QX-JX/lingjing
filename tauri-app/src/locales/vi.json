@@ -1,0 +1,263 @@
+{
+  "app": {
+    "name": "Linh Cảnh Lồng Tiếng",
+    "subtitle": "Sản phẩm thuộc Khoan Cung AI"
+  },
+  "header": {
+    "login": "Đăng nhập",
+    "loggingIn": "Đang đăng nhập...",
+    "logout": "Thoát tài khoản hiện tại",
+    "closeWindow": "Đóng cửa sổ",
+    "settings": "Cài đặt",
+    "minimize": "Thu nhỏ",
+    "maximize": "Phóng to",
+    "restore": "Khôi phục",
+    "close": "Đóng"
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "officialWebsite": "Trang web chính thức",
+    "noOfficialWebsite": "Hiện chưa có địa chỉ trang web chính thức",
+    "feedback": "Gửi phản hồi",
+    "checkUpdate": "Kiểm tra cập nhật",
+    "checking": "Đang kiểm tra...",
+    "close": "Đóng",
+    "language": "Ngôn ngữ"
+  },
+  "update": {
+    "foundNew": "Đã phát hiện phiên bản mới {version}!",
+    "currentVersion": "Phiên bản hiện tại {version}",
+    "updateContent": "Nội dung cập nhật:",
+    "updateLater": "Cập nhật sau",
+    "updateNow": "Cập nhật ngay",
+    "alreadyLatest": "Chúc mừng bạn, hiện tại đã là phiên bản mới nhất"
+  },
+  "login": {
+    "waiting": "Đang chờ đăng nhập",
+    "completeInBrowser": "Vui lòng hoàn tất thao tác đăng nhập trên trình duyệt",
+    "cancelLogin": "Hủy đăng nhập",
+    "loggedIn": "Đã đăng nhập tài khoản Khoan Cung"
+  },
+  "toolbar": {
+    "undo": "Hoàn tác",
+    "redo": "Làm lại",
+    "clear": "Xóa",
+    "copy": "Sao chép",
+    "insertPause": "Chèn khoảng dừng",
+    "speedChange": "Thay đổi tốc độ",
+    "reread": "Đọc lại",
+    "numericReading": "Cách đọc số",
+    "multipleSpeakers": "Nhiều người nói",
+    "polyphonic": "Từ đa âm",
+    "specialEffects": "Hiệu ứng âm thanh đặc biệt",
+    "backgroundMusic": "Nhạc nền",
+    "import": "Nhập",
+    "historyBackup": "Sao lưu lịch sử"
+  },
+  "clear": {
+    "clearAll": "Xóa tất cả nội dung",
+    "clearFormatOnly": "Chỉ xóa định dạng"
+  },
+  "pause": {
+    "title": "Thời gian tạm dừng"
+  },
+  "speed": {
+    "title": "Thay đổi tốc độ"
+  },
+  "numberReading": {
+    "title": "Cách đọc số",
+    "digits": "Đọc từng chữ số",
+    "digitsDesc": "Ví dụ: 123 đọc là \"một hai ba\"",
+    "cardinal": "Đọc giá trị số",
+    "cardinalDesc": "Ví dụ: 123 đọc là \"một trăm hai mươi ba\"",
+    "telephone": "Đọc số điện thoại",
+    "telephoneDesc": "Ví dụ: 123 đọc là \"yêu nhị tam\""
+  },
+  "polyphone": {
+    "pronunciation": "Phát âm của \"{char}\""
+  },
+  "voice": {
+    "selectVoice": "Chọn người nói",
+    "more": "Thêm",
+    "voiceSettings": "Cấu hình người nói",
+    "speed": "Tốc độ nói",
+    "volume": "Âm lượng",
+    "pitch": "Âm điệu",
+    "low": "Thấp",
+    "high": "Cao",
+    "small": "Nhỏ",
+    "large": "Lớn",
+    "preview": "Xem trước",
+    "stopPreview": "Dừng xem trước",
+    "apply": "Áp dụng",
+    "cancel": "Hủy bỏ",
+    "loadingVoices": "Đang tải danh sách người nói..."
+  },
+  "soundEffect": {
+    "title": "Hiệu ứng âm thanh",
+    "musicList": "Danh sách nhạc",
+    "localImport": "Nhập từ thiết bị",
+    "searchPlaceholder": "Vui lòng nhập tên nhạc nền",
+    "noResults": "Không tìm thấy hiệu ứng âm thanh phù hợp",
+    "noEffects": "Hiện không có hiệu ứng âm thanh",
+    "uploadHint": "(Vui lòng tải lên tệp âm thanh mp3 dưới 1 MB)",
+    "uploading": "Đang tải lên...",
+    "uploadFromLocal": "+ Nhập từ thiết bị",
+    "totalEffects": "Tổng cộng {count} hiệu ứng âm thanh",
+    "manage": "Quản lý",
+    "play": "Phát",
+    "favorite": "Thêm vào yêu thích",
+    "unfavorite": "Bỏ yêu thích",
+    "delete": "Xóa",
+    "confirmDelete": "Bạn có chắc muốn xóa hiệu ứng âm thanh \"{name}\" không?"
+  },
+  "backgroundMusic": {
+    "title": "Nhạc nền",
+    "musicList": "Danh sách nhạc",
+    "localImport": "Nhập từ thiết bị",
+    "noBgm": "Không có nhạc nền",
+    "preview": "Nghe thử",
+    "stopPreview": "Dừng nghe thử",
+    "remove": "Xóa nhạc nền",
+    "volume": "Âm lượng",
+    "uploadLocalMusic": "Nhấp để tải lên nhạc địa phương",
+    "supportFormat": "Hỗ trợ định dạng MP3, tối đa 10MB",
+    "selectMp3": "Vui lòng chọn tệp âm thanh định dạng MP3",
+    "fileTooLarge": "Kích thước tệp không được vượt quá 10MB",
+    "uploadSuccess": "Tải lên nhạc nền thành công",
+    "uploadFailed": "Tải lên thất bại: {error}"
+  },
+  "import": {
+    "title": "Nhập văn bản",
+    "uploadDocument": "Tải lên tài liệu",
+    "clickToUpload": "Nhấp để tải lên",
+    "supportFormat": "Hỗ trợ định dạng txt, doc, docx, dưới 2M",
+    "processing": "Đang xử lý tệp...",
+    "fileEmpty": "Nội dung tệp trống",
+    "fileEmptyAfterClean": "Nội dung tệp trống hoặc chỉ chứa ký tự trắng",
+    "truncated": "Văn bản đã được tự động cắt: {original} ký tự → {final} ký tự (tối đa {max} ký tự)",
+    "appendOrOverwrite": "Có muốn thêm vào văn bản hiện tại không?\n\nSố ký tự hiển thị của văn bản nhập: {count} / {max}\nNhấp \"OK\" để thêm, nhấp \"Hủy\" để ghi đè",
+    "invalidFormat": "Định dạng tệp không được hỗ trợ, vui lòng tải lên tệp txt, doc hoặc docx",
+    "fileTooLarge": "Kích thước tệp không được vượt quá 2MB",
+    "selectDocument": "Chọn tài liệu",
+    "uploadDocxHint": "Vui lòng chọn và nhập tệp doc/docx thông qua hộp thoại tệp",
+    "importFailed": "Nhập thất bại: {error}",
+    "openDialogFailed": "Không thể mở hộp thoại tệp"
+  },
+  "history": {
+    "title": "Lịch sử",
+    "total": "Tổng cộng {count} mục",
+    "search": "Tìm kiếm lịch sử...",
+    "clearAll": "Xóa tất cả",
+    "loading": "Đang tải...",
+    "noRecords": "Chưa có lịch sử",
+    "noMatchRecords": "Không tìm thấy bản ghi phù hợp",
+    "loadSuccess": "Đã tải lịch sử",
+    "loadFailed": "Tải lịch sử thất bại",
+    "deleteSuccess": "Xóa thành công",
+    "deleteFailed": "Xóa thất bại",
+    "clearSuccess": "Đã xóa sạch tất cả lịch sử",
+    "clearFailed": "Xóa thất bại",
+    "confirmDelete": "Bạn có chắc muốn xóa bản ghi này không?",
+    "confirmClearAll": "Bạn có chắc muốn xóa sạch tất cả lịch sử không? Thao tác này không thể hoàn tác.",
+    "clickToRestore": "Nhấp vào bản ghi để khôi phục vào trình soạn thảo · Lưu tối đa 100 bản ghi",
+    "characters": "Ký tự",
+    "blank": "Tài liệu trống",
+    "unnamed": "Bản ghi chưa đặt tên"
+  },
+  "statusBar": {
+    "preview": "Nghe thử",
+    "pause": "Tạm dừng",
+    "generating": "Đang tạo... {percent}%",
+    "cancel": "Hủy",
+    "export": "Xuất file",
+    "exporting": "Đang xuất...",
+    "exportSuccess": "Xuất thành công!",
+    "estimatedDuration": "Thời lượng ước tính: {duration}",
+    "charCount": "{count}/5000"
+  },
+  "textEditor": {
+    "placeholder": "Vui lòng nhập văn bản...",
+    "maxLengthReached": "Đã đạt số ký tự tối đa"
+  },
+  "auth": {
+    "title": "Hộp công cụ AI Kunqiong・Xác thực giấy phép phần mềm",
+    "description": "Ứng dụng bạn đang cài đặt hiện là ứng dụng trong hệ sinh thái Hộp công cụ AI Kunqiong, cần được kích hoạt bằng mã kích hoạt của hộp công cụ để mở khóa đầy đủ chức năng.",
+    "placeholder": "Vui lòng nhập mã kích hoạt Hộp công cụ AI Kunqiong",
+    "verify": "Xác minh và kích hoạt",
+    "verifying": "Đang xác minh...",
+    "getAuthCode": "Chưa lấy được mã ủy quyền? Nhấp vào đây để lấy",
+    "inputAuthCode": "Vui lòng nhập mã ủy quyền",
+    "invalidAuthCode": "Mã ủy quyền không hợp lệ hoặc đã hết hạn, vui lòng lấy lại",
+    "verifyFailed": "Xác minh thất bại, vui lòng kiểm tra kết nối mạng"
+  },
+  "ad": {
+    "clickToView": "Nhấp để xem"
+  },
+  "toast": {
+    "copied": "Văn bản đã được sao chép vào bộ nhớ tạm",
+    "copyFailed": "Sao chép thất bại, vui lòng thử lại",
+    "noText": "Không có văn bản nào để sao chép",
+    "selectTextForSpeed": "Vui lòng chọn trước văn bản cần thay đổi tốc độ",
+    "selectTextForReread": "Vui lòng chọn trước văn bản cần thêm chức năng đọc lại",
+    "selectNumber": "Vui lòng chọn trước các chữ số cần thêm cách đọc bằng số",
+    "onlyChinese": "Chỉ hỗ trợ tiếng Trung! Vui lòng chọn văn bản hoàn toàn bằng tiếng Trung",
+    "onlyNumber": "Chỉ có thể chọn chữ số! Vui lòng chọn văn bản chỉ chứa chữ số rồi mới sử dụng chức năng này",
+    "selectChar": "Vui lòng chọn trước một ký tự Hán",
+    "singleCharOnly": "Vui lòng sử dụng chức năng nhận dạng từng ký tự",
+    "selectChineseChar": "Vui lòng chọn ký tự Hán",
+    "notPolyphone": "Ký tự hiện tại không phải là từ đa âm",
+    "selectTextForVoice": "Vui lòng chọn trước văn bản cần chỉ định người phát âm",
+    "editorNotInitialized": "Trình soạn thảo chưa được khởi tạo",
+    "textTooLong": "Độ dài văn bản vượt quá giới hạn ({count} / {max})",
+    "cleared": "Đã xóa tất cả nội dung",
+    "formatCleared": "Đã xóa định dạng, giữ lại văn bản thuần túy",
+    "noContentToKeep": "Không có nội dung văn bản nào để giữ lại",
+    "authCheckFailed": "Kiểm tra ủy quyền thất bại, vui lòng kiểm tra kết nối mạng",
+    "noTextInput": "Vui lòng nhập văn bản trước"
+  },
+  "error": {
+    "networkError": "Kết nối mạng thất bại, không thể tạo tệp âm thanh.\n\nNguyên nhân có thể:\n• Kết nối mạng không ổn định\n• Tường lửa chặn kết nối\n• Dịch vụ Azure TTS tạm thời không khả dụng\n\nLời khuyên:\n• Kiểm tra kết nối mạng\n• Thử lại sau",
+    "timeout": "Thời gian tạo quá lâu, hãy thử:\n• Rút ngắn độ dài văn bản\n• Kiểm tra tốc độ mạng\n• Thử lại sau",
+    "longTextTimeout": "Thời gian tạo quá lâu (độ dài văn bản: {count} ký tự).\n\nViệc xử lý văn bản dài sẽ mất nhiều thời gian hơn, hãy thử:\n• Đợi thêm một chút (văn bản dài có thể cần 5–10 phút)\n• Chia nhỏ văn bản để tạo (mỗi lần không quá 1000 ký tự)\n• Kiểm tra tốc độ mạng\n• Thử lại sau",
+    "segmentFailed": "Quá trình chia nhỏ và xử lý văn bản dài thất bại.\n\nLời khuyên:\n• Kiểm tra xem kết nối mạng có ổn định hay không\n• Cố gắng rút ngắn độ dài văn bản\n• Sau khi tạo âm thanh cho từng đoạn, hãy ghép chúng lại thủ công",
+    "exportError": "Xuất thất bại: {error}",
+    "exportNetworkError": "Kết nối mạng thất bại, không thể tạo âm thanh. Vui lòng kiểm tra kết nối mạng rồi thử lại.",
+    "exportTimeout": "Đã hết thời gian tạo, vui lòng thử rút ngắn văn bản hoặc thử lại sau.",
+    "exportLongTextTimeout": "Đã hết thời gian tạo (độ dài văn bản: {count} ký tự). Xử lý văn bản dài sẽ mất nhiều thời gian hơn, vui lòng chờ hoặc thử chia nhỏ để tạo.",
+    "longTextDetected": "Phát hiện văn bản dài ({count} ký字符), sẽ xử lý song song (khoảng {segments} đoạn), vui lòng đợi...",
+    "cancelSuccess": "Đã hủy quá trình tạo"
+  },
+  "voices": {
+    "zhiwei": "Vân Hy (nam)",
+    "xiaoyu": "Hiểu Hiểu (nữ)",
+    "xiaofeng": "Vân Dã (nam)",
+    "xiaomei": "Hiểu Y (nữ)",
+    "yunjian": "Vân Kiện (nam)",
+    "yunxia": "Vân Hà (nữ/trẻ em)",
+    "xiaobei": "Hiểu Bắc (nữ) - Tiếng Quan thoại vùng Đông Bắc",
+    "xiaoni": "Hiểu Ni (nữ) - Tiếng Quan thoại vùng Thiểm Tây",
+    "wanlong": "Vân Long (nam) - Hồng Kông",
+    "hiugaai": "Hiểu Giai (nữ) - Tiếng Quảng Đông Hồng Kông",
+    "hiumaan": "Hiểu Mạn (nữ) - Hồng Kông",
+    "yunjhe": "Vân Triết (nam) - Đài Loan",
+    "hsiaochen": "Hiểu Thần (nữ) - Đài Loan",
+    "hsiaoyu": "Hiểu Ngữ (nữ) - Đài Loan",
+    "description": {
+      "zhiwei": "Năng động, hoạt bát, tươi sáng và tràn đầy sức sống. Phù hợp với lồng tiếng phim hoạt hình, thuyết minh video ngắn, nhân vật thiếu niên trong tiểu thuyết, các video dạy học nhẹ nhàng",
+      "xiaoyu": "Cảm xúc toàn diện, chất giọng dịu dàng, thân thiện, tự nhiên, hỗ trợ nhiều trạng thái cảm xúc khác nhau. Phù hợp với tiểu thuyết audio, thuyết minh phim ảnh, chương trình phát thanh mang tính cảm xúc, robot chăm sóc khách hàng, đọc văn bản dài",
+      "xiaofeng": "Chuyên nghiệp, chững chạc, trầm ấm, chuyên môn cao, có sức hút như một phát thanh viên tin tức truyền thống. Phù hợp với việc đọc tin tức, thuyết minh phim tài liệu, video quảng cáo doanh nghiệp, bài giảng học thuật nghiêm túc, bình luận chính trị",
+      "xiaomei": "Dịu dàng, ngọt ngào, giọng trong trẻo, ngọt ngào, lịch sự, giống như nhân viên dịch vụ chuyên nghiệp hoặc người chị lớn tâm lý. Phù hợp với dịch vụ chăm sóc khách hàng trực tuyến, trợ lý giọng nói, truyện kể cho trẻ em, loa phát thanh tại trung tâm thương mại, nhắc nhở mẹo vặt cuộc sống",
+      "yunjian": "Mãnh liệt, sôi nổi, tốc độ nói nhanh, tràn đầy năng lượng và cảm giác vận động, giọng nói phấn khích có sức lôi cuốn mạnh mẽ. Phù hợp với bình luận các sự kiện thể thao, bình luận game cạnh tranh, quảng cáo khuyến mãi, lời dẫn kiểu “gào thét” trong video ngắn",
+      "yunxia": "Dễ thương, hồn nhiên, non nớt, trong sáng, đáng yêu, là giọng nói điển hình của trẻ em. Phù hợp với giáo dục mầm non, đọc sách tranh cho trẻ em, lồng tiếng cho các nhân vật tuổi mẫu giáo trong phim hoạt hình, lồng tiếng cho video về thú cưng dễ thương",
+      "xiaobei": "Hào phóng, hài hước, gần gũi, mang nét hài hước và sức lôi cuốn đặc trưng của người miền Đông Bắc Trung Quốc, tạo cảm giác rất thân thiện. Phù hợp với những câu chuyện cười, vlog đời thường, kể chuyện lấy bối cảnh vùng Đông Bắc, livestream bán hàng mang đậm dấu ấn cá nhân",
+      "xiaoni": "Chân chất, đôn hậu, giàu sắc thái, thể hiện được phong tục tập quán của vùng Tây Bắc, cảm xúc dạt dào và mạnh mẽ. Phù hợp với giới thiệu lịch sử văn hóa (ví dụ: du lịch Tây An), quảng bá ẩm thực đặc trưng địa phương, thuyết minh phim ảnh phản ánh cuộc sống nông thôn vùng Tây Bắc",
+      "wanlong": "Trưởng thành, chững chạc, mang phong cách doanh nhân, ngữ điệu toát lên khí chất tinh hoa kiểu Hồng Kông, phát âm chuẩn và chuyên nghiệp. Phù hợp với việc đọc tin tức tài chính, video quảng cáo doanh nghiệp, thuyết minh phim chiến tranh kinh doanh kiểu Hồng Kông",
+      "hiugaai": "Nhẹ nhàng, trí tuệ, chuẩn mực, đây là cách phát âm tiếng Quảng Đông rất chuẩn, ngữ điệu tự nhiên. Phù hợp với tin tức khu vực nói tiếng Quảng Đông, dẫn chương trình radio, bách khoa cuộc sống",
+      "hiumaan": "Thanh lịch, ung dung, mang vẻ thư sinh; so với Hiểu Giai, giọng của cô ấy nghe giống một diễn giả uyên bác, điềm tĩnh hơn. Phù hợp với đọc sách audio, thuyết minh phim tài liệu, quảng cáo thương hiệu cao cấp",
+      "yunjhe": "Dịu dàng, nho nhã, mang cảm giác \"cute\", phát âm điển hình của nam sinh Đài Loan, giọng điệu êm dịu, không có tính công kích. Phù hợp với các video ngắn mang tính chữa lành, thuyết minh cho phim thần tượng thanh xuân, chương trình phát thanh về tình cảm, hoặc những lời nhắc nhở về mẹo vặt cuộc sống",
+      "hsiaochen": "Ngọt ngào, tươi sáng, tràn đầy sức sống, nghe như một cô gái hàng xóm tràn đầy năng lượng, rất dễ gây thiện cảm. Phù hợp với tin tức giải trí, thuyết minh cho chương trình tạp kỹ, Vlog dành cho giới trẻ, hoặc báo thức buổi sáng",
+      "hsiaoyu": "Chuyên nghiệp, rõ ràng, trí tuệ; đây là phong cách phát thanh viên tiêu biểu của \"Quốc ngữ Đài Loan\", phát âm chuẩn xác, vô cùng thân thiện. Phù hợp với video giáo dục, giảng bài trực tuyến, trợ lý giọng nói thông minh, và hướng dẫn bằng giọng nói trong các sự kiện chính thức"
+    }
+  }
+}

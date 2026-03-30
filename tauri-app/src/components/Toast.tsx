@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
-import { AlertCircle, X, Info, AlertTriangle } from 'lucide-react';
+import { AlertCircle, X, Info, AlertTriangle, CheckCircle2 } from 'lucide-react';
+import { t } from '../locales';
 
-export type ToastType = 'info' | 'warning' | 'error';
+export type ToastType = 'info' | 'success' | 'warning' | 'error';
 
 interface ToastProps {
   message: string;
@@ -33,17 +34,23 @@ export function Toast({ message, type = 'info', duration = 1000, onClose }: Toas
 
   const typeStyles = {
     info: 'bg-blue-50 border-blue-200 text-blue-800 shadow-blue-100',
+    success: 'bg-green-50 border-green-200 text-green-800 shadow-green-100',
     warning: 'bg-amber-50 border-amber-200 text-amber-800 shadow-amber-100',
     error: 'bg-red-50 border-red-200 text-red-800 shadow-red-100',
   };
 
   const iconStyles = {
     info: 'text-blue-600',
+    success: 'text-green-600',
     warning: 'text-amber-600',
     error: 'text-red-600',
   };
 
-  const IconComponent = type === 'error' ? AlertCircle : type === 'warning' ? AlertTriangle : Info;
+  const IconComponent = 
+    type === 'error' ? AlertCircle : 
+    type === 'warning' ? AlertTriangle : 
+    type === 'success' ? CheckCircle2 : 
+    Info;
 
   return (
     <div
@@ -52,16 +59,16 @@ export function Toast({ message, type = 'info', duration = 1000, onClose }: Toas
       }`}
     >
       <div
-        className={`flex items-center gap-3 px-5 py-3.5 rounded-xl shadow-lg border-2 ${typeStyles[type]} min-w-[320px] max-w-md backdrop-blur-sm`}
+        className={`flex items-center gap-3 px-5 py-3.5 rounded-xl shadow-lg border-2 ${typeStyles[type] || typeStyles.info} min-w-[320px] max-w-md backdrop-blur-sm`}
       >
-        <div className={`flex-shrink-0 ${iconStyles[type]}`}>
+        <div className={`flex-shrink-0 ${iconStyles[type] || iconStyles.info}`}>
           <IconComponent className="w-5 h-5" />
         </div>
         <span className="flex-1 text-sm font-medium leading-relaxed">{message}</span>
         <button
           onClick={handleClose}
           className={`flex-shrink-0 p-1 rounded-md hover:bg-opacity-20 hover:bg-gray-500 transition-all duration-200 ${iconStyles[type]} opacity-70 hover:opacity-100`}
-          aria-label="关闭提示"
+          aria-label={t('header.close')}
         >
           <X className="w-4 h-4" />
         </button>

@@ -1,8 +1,0 @@
-# Cargo 配置文件
-# 减少编译并行度以降低内存占用
-[build]
-# 使用单线程编译，避免内存不足
-jobs = 1
-
-[target.x86_64-pc-windows-msvc]
-linker = "link.exe"

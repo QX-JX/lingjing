@@ -1,0 +1,263 @@
+{
+  "app": {
+    "name": "Lingjing Dubbing",
+    "subtitle": "Isang produkto ng Kunqiong AI"
+  },
+  "header": {
+    "login": "Mag-login",
+    "loggingIn": "Naglo-log in...",
+    "logout": "Mag-logout mula sa kasalukuyang account",
+    "closeWindow": "Isara ang window",
+    "settings": "Mga setting",
+    "minimize": "I-minimize",
+    "maximize": "I-maximize",
+    "restore": "Ibalik",
+    "close": "Isara"
+  },
+  "settings": {
+    "title": "Mga setting",
+    "officialWebsite": "Opisyal na website",
+    "noOfficialWebsite": "Wala pang opisyal na address ng website",
+    "feedback": "Pagbabalik-tanaw sa mga problema",
+    "checkUpdate": "Suriin ang pag-update",
+    "checking": "Sinusuri...",
+    "close": "Isara",
+    "language": "Wika"
+  },
+  "update": {
+    "foundNew": "Bago nang bersyon {version} ang natagpuan!",
+    "currentVersion": "Kasalukuyang bersyon {version}",
+    "updateContent": "Nilalaman ng pag-update:",
+    "updateLater": "I-update mamaya",
+    "updateNow": "I-update kaagad",
+    "alreadyLatest": "Binabati kita, ikaw ay nasa pinakabagong bersyon na"
+  },
+  "login": {
+    "waiting": "Naghihintay ng pag-login",
+    "completeInBrowser": "Pakumpletuhin ang pag-login sa browser",
+    "cancelLogin": "I-cancel ang pag-login",
+    "loggedIn": "Naka-log in na sa Kunqiong account"
+  },
+  "toolbar": {
+    "undo": "I-undo",
+    "redo": "Iulit",
+    "clear": "I-clear",
+    "copy": "Kopyahin",
+    "insertPause": "Maglagay ng Pahinga",
+    "speedChange": "Pagbabago sa Bilis",
+    "reread": "Muling Basahin",
+    "numericReading": "Pagbasa ng Mga Numero",
+    "multipleSpeakers": "Maramihang Tagapagsalita",
+    "polyphonic": "Maraming Pagbigkas",
+    "specialEffects": "Epektong Espesyal",
+    "backgroundMusic": "Musikang Pang-background",
+    "import": "Import",
+    "historyBackup": "Backup ng Kasaysayan"
+  },
+  "clear": {
+    "clearAll": "I-clear ang Lahat ng Nilalaman",
+    "clearFormatOnly": "I-clear Lamang ang Format"
+  },
+  "pause": {
+    "title": "Oras ng Pahinga"
+  },
+  "speed": {
+    "title": "Bilis ng Salita"
+  },
+  "numberReading": {
+    "title": "Paraan ng Pagbasa ng Mga Numero",
+    "digits": "Basahin bilang mga numero",
+    "digitsDesc": "Halimbawa: 123 ay binabasa bilang \"isa-dalawa-tatlo\"",
+    "cardinal": "Basahin bilang halaga",
+    "cardinalDesc": "Halimbawa: 123 ay binabasa bilang \"isandaan dalawampu't tatlo\"",
+    "telephone": "Basahin bilang numero",
+    "telephoneDesc": "Halimbawa: 123 ay binabasa bilang \"yao-er-san\""
+  },
+  "polyphone": {
+    "pronunciation": "Pagbigkas ng \"{char}\""
+  },
+  "voice": {
+    "selectVoice": "Piliin ang Tagapagsalita",
+    "more": "Higit pa",
+    "voiceSettings": "Mga Setting ng Tagapagsalita",
+    "speed": "Bilis ng Salita",
+    "volume": "Tunog",
+    "pitch": "tono",
+    "low": "mababa",
+    "high": "matataas",
+    "small": "maliit",
+    "large": "malaki",
+    "preview": "preview",
+    "stopPreview": "tigilan ang preview",
+    "apply": "apply",
+    "cancel": "kanselahin",
+    "loadingVoices": "naglo-load ng listahan ng mga boses..."
+  },
+  "soundEffect": {
+    "title": "Mga epekto sa tunog",
+    "musicList": "Listahan ng musika",
+    "localImport": "Lokal na pag-import",
+    "searchPlaceholder": "Pakilagay ang pangalan ng background music",
+    "noResults": "Walang natagpuang tugma na epekto sa tunog",
+    "noEffects": "Wala munang epekto sa tunog",
+    "uploadHint": "(Mangyaring mag-upload ng mp3 audio file na mas mababa sa 1 MB)",
+    "uploading": "Naglo-load...",
+    "uploadFromLocal": "+ Mag-import mula sa lokal",
+    "totalEffects": "Kabuuang {count} na epekto sa tunog",
+    "manage": "Pamahalaan",
+    "play": "I-play",
+    "favorite": "Idagdag sa paborito",
+    "unfavorite": "Tanggalin sa paborito",
+    "delete": "Tanggalin",
+    "confirmDelete": "Tiyak bang gusto mong tanggalin ang epekto sa tunog na \"{name}\"?"
+  },
+  "backgroundMusic": {
+    "title": "Background music",
+    "musicList": "Listahan ng musika",
+    "localImport": "Lokal na pag-import",
+    "noBgm": "Walang background music",
+    "preview": "Pakinggan ang Istraktura",
+    "stopPreview": "Tigilan ang Pagsubok na Istraktura",
+    "remove": "Tanggalin ang Background Music",
+    "volume": "Bolyum",
+    "uploadLocalMusic": "I-click upang mag-upload ng lokal na musika",
+    "supportFormat": "Sinusuportahan ang format na MP3, hanggang 10MB",
+    "selectMp3": "Mangyaring piliin ang audio file na may format na MP3",
+    "fileTooLarge": "Hindi maaaring lumagpas sa 10MB ang laki ng file",
+    "uploadSuccess": "Matagumpay na nai-upload ang background music",
+    "uploadFailed": "Nabigo ang pag-upload: {error}"
+  },
+  "import": {
+    "title": "Mag-import ng Teksto",
+    "uploadDocument": "Mag-upload ng Dokumento",
+    "clickToUpload": "I-click upang mag-upload",
+    "supportFormat": "Sinusuportahan ang mga format na txt, doc, at docx, hanggang 2M",
+    "processing": "Pinoproseso ang file...",
+    "fileEmpty": "Walang nilalaman ang file",
+    "fileEmptyAfterClean": "Walang nilalaman o pawang mga whitespace lamang ang laman ng file",
+    "truncated": "Awtomatikong pinutol ang teksto: {original} na karakter → {final} na karakter (maximum na {max} na karakter)",
+    "appendOrOverwrite": "Gusto mo bang idagdag ito sa kasalukuyang teksto?\n\nLakip na bilang ng mga nakikitang karakter sa inilipat na teksto: {count} / {max}\nI-click ang \"OK\" para idagdag, i-click ang \"Cancel\" para palitan",
+    "invalidFormat": "Hindi suportado ang format ng file; mangyaring mag-upload ng txt, doc, o docx file",
+    "fileTooLarge": "Hindi maaaring lumagpas sa 2MB ang laki ng file",
+    "selectDocument": "Piliin ang dokumento",
+    "uploadDocxHint": "Para sa mga file na doc/docx, piliin ang mga ito gamit ang file dialog box",
+    "importFailed": "Nabigo ang pag-import: {error}",
+    "openDialogFailed": "Nabigo ang pagbubukas ng file dialog box"
+  },
+  "history": {
+    "title": "Kasaysayan",
+    "total": "Mayroon lahat ng {count} na entry",
+    "search": "Hanapin ang kasaysayan...",
+    "clearAll": "I-clear ang Lahat",
+    "loading": "Naglo-load...",
+    "noRecords": "Walang kasaysayan sa ngayon",
+    "noMatchRecords": "Walang nakitang kaukulang talaan",
+    "loadSuccess": "Nai-load na ang kasaysayan",
+    "loadFailed": "Bigo sa paglo-load ng kasaysayan",
+    "deleteSuccess": "Matagumpay na natanggal",
+    "deleteFailed": "Bigo sa pagtanggal",
+    "clearSuccess": "Na-clear na ang lahat ng kasaysayan",
+    "clearFailed": "Bigo sa pag-clear",
+    "confirmDelete": "Tiyak bang gusto mong tanggalin itong kasaysayan?",
+    "confirmClearAll": "Tiyak bang gusto mong i-clear ang lahat ng kasaysayan? Hindi na ito maaaring ibalik.",
+    "clickToRestore": "I-click ang talaan para maibalik sa editor · Hanggang 100 talaan lamang ang maiimbak",
+    "characters": "Mga titik",
+    "blank": "Walang laman na dokumento",
+    "unnamed": "Walang pangalan na talaan"
+  },
+  "statusBar": {
+    "preview": "Subukang pakinggan",
+    "pause": "I-pause",
+    "generating": "Ginagawa... {percent}%",
+    "cancel": "I-cancel",
+    "export": "I-export ang file",
+    "exporting": "Iinilipat...",
+    "exportSuccess": "Matagumpay na nai-export!",
+    "estimatedDuration": "Tinatayang oras: {duration}",
+    "charCount": "{count}/5000"
+  },
+  "textEditor": {
+    "placeholder": "Paki-input ang teksto...",
+    "maxLengthReached": "Umabot na sa maximum na bilang ng mga titik"
+  },
+  "auth": {
+    "title": "Kunqiong AI Toolbox・Pag-verify ng Lisensya ng Software",
+    "description": "Ang kasalukuyang naka-install na tool ay isang aplikasyon sa ecosystem ng Kunqiong AI Toolbox, at kinakailangan ang lisensyang code ng toolbox para maisaaktibo ito at magamit ang buong functionality.",
+    "placeholder": "Paki-input ang lisensyang code ng Kunqiong AI Toolbox",
+    "verify": "I-verify at i-aktibo",
+    "verifying": "I-verify...",
+    "getAuthCode": "Hindi pa nakukuha ang authorization code? I-click dito upang makuha ito",
+    "inputAuthCode": "I-enter ang authorization code",
+    "invalidAuthCode": "Hindi valid o expired na ang authorization code; mangyaring kumuha muli",
+    "verifyFailed": "Nabigo ang pag-verify; pakisuri ang koneksyon sa internet"
+  },
+  "ad": {
+    "clickToView": "I-click para tingnan"
+  },
+  "toast": {
+    "copied": "Kinopya na ang teksto sa clipboard",
+    "copyFailed": "Nabigo ang pagkopya; mangyaring subukan ulit",
+    "noText": "Walang teksto na pwedeng kopyahin",
+    "selectTextForSpeed": "Mangyaring piliin muna ang teksto na nais mong baguhin ang bilis",
+    "selectTextForReread": "Mangyaring piliin muna ang teksto na nais mong idagdagang re-read",
+    "selectNumber": "Mangyaring piliin muna ang mga numero na nais mong lagyan ng paraan ng pagbasa",
+    "onlyChinese": "Tanging Tsino lamang ang suportado! Mangyaring piliin ang purong teksto sa Tsino",
+    "onlyNumber": "Maaari lamang pumili ng mga numero! Mangyaring piliin ang purong numerong teksto bago gamitin ang feature na ito",
+    "selectChar": "Mangyaring piliin muna ang isang karakter na Tsino",
+    "singleCharOnly": "Gumamit ng pagkilala sa iisang karakter",
+    "selectChineseChar": "Piliin ang karakter na Tsino",
+    "notPolyphone": "Ang kasalukuyang teksto ay hindi polyphone",
+    "selectTextForVoice": "Mangyaring piliin muna ang teksto na nais mong tukuyin ang tagapagsalita",
+    "editorNotInitialized": "Hindi pa na-inisyal ang editor",
+    "textTooLong": "Lampas sa limitasyon ang haba ng teksto ({count} / {max})",
+    "cleared": "Na-clear na ang lahat ng nilalaman",
+    "formatCleared": "Na-clear na ang format, nananatiling purong teksto",
+    "noContentToKeep": "Walang natitirang makakapigil na teksto",
+    "authCheckFailed": "Nabigo ang pag-check sa authorization; pakisuri ang koneksyon sa internet",
+    "noTextInput": "Mangyaring mag-input muna ng teksto"
+  },
+  "error": {
+    "networkError": "Nabigo ang koneksyon sa internet, kaya hindi maaaring makabuo ng audio.\n\nMga posibleng dahilan:\n• Hindi matatag ang koneksyon sa internet\n• Hinaharangan ng firewall ang koneksyon\n• Panandaliang hindi magagamit ang serbisyo ng Azure TTS\n\nRekomendasyon:\n• Suriin ang koneksyon sa internet\n• Subukan muli mamaya",
+    "timeout": "Nag-expire ang oras ng pagbuo; subukan ang mga sumusunod:\n• Pahabain ang haba ng teksto\n• Suriin ang bilis ng internet\n• Subukan muli mamaya",
+    "longTextTimeout": "Nag-expire ang oras ng pagbuo (haba ng teksto: {count} na salita).\n\nAng pagpoproseso ng mahabang teksto ay tumatagal ng mas matagal; subukan ang mga sumusunod:\n• Maghintay ng mas matagal (maaaring tumagal ng 5–10 minuto ang mahabang teksto)\n• Hatiin at buuin nang hiwalay (hindi lalagpas sa 1000 salita bawat isa)\n• Suriin ang bilis ng internet\n• Subukan muli mamaya",
+    "segmentFailed": "Nabigo ang pagproseso ng mahabang teksto sa pamamagitan ng segmentasyon.\n\nRekomendasyon:\n• Suriin kung matatag ang koneksyon sa internet\n• Subukang pahabain ang haba ng teksto\n• Pagkatapos makabuo ng audio sa bawat segment, pagsamahin ito nang manu-mano",
+    "exportError": "Nabigo ang pag-export: {error}",
+    "exportNetworkError": "Nabigong kumonekta sa internet, hindi maaaring makabuo ng audio. Pakisuri ang iyong koneksyon sa internet at subukang muli.",
+    "exportTimeout": "Naubos na ang oras para sa pagbuo; subukang pahabain ang teksto o subukang muli mamaya.",
+    "exportLongTextTimeout": "Naubos na ang oras para sa pagbuo (haba ng teksto: {count} na salita). Mas matagal ang proseso para sa mahabang teksto, mangyaring maghintay o subukang gawin ito nang hiwa-hiwalay.",
+    "longTextDetected": "Natukoy ang mahabang teksto ({count} na salita), gagawin ito nang sabay-sabay (mga {segments} na bahagi), mangyaring maghintay...",
+    "cancelSuccess": "Kinansela na ang pagbuo"
+  },
+  "voices": {
+    "zhiwei": "Yunxi (lalaki)",
+    "xiaoyu": "Xiaoxiao (babae)",
+    "xiaofeng": "Yunye (lalaki)",
+    "xiaomei": "Xiaoyi (babae)",
+    "yunjian": "Yunjian (lalaki)",
+    "yunxia": "Yunxia (babae/bata)",
+    "xiaobei": "Xiaobei (babae) - wikang Northeastern Mandarin",
+    "xiaoni": "Xiaoni (babae) - wikang Shaanxi",
+    "wanlong": "Yunlong (lalaki) - Hong Kong",
+    "hiugaai": "Xiaojia (babae) - Cantonese ng Hong Kong",
+    "hiumaan": "Xiaoman (babae) - Hong Kong",
+    "yunjhe": "Yunzhe (lalaki) - Taiwan",
+    "hsiaochen": "Xiaochen (babae) - Taiwan",
+    "hsiaoyu": "Xiaoyu (babae) - Taiwan",
+    "description": {
+      "zhiwei": "Masigla at buhay na buhay, maaraw, masigla, at puno ng sigla. Mainam para sa mga panauhing boses sa animasyon, maikling video na paliwanag, mga batang karakter sa nobela, at nakakatuwang mga video sa pagtuturo.",
+      "xiaoyu": "Maraming gamit at madaling umangkop sa emosyon; malumanay, palakaibigan, at natural ang tono. Mainam para sa mga audiobook, paliwanag sa pelikula at telebisyon, mga programa sa radyo na may emosyonal na tema, robot na serbisyo sa kostumer, at pagbasa ng mahabang teksto.",
+      "xiaofeng": "Propesyonal at matatag; malakas, propesyonal, at may magnetikong tono, katulad ng mga tagapagbalita sa tradisyonal na istasyon ng radyo. Mainam para sa pagbabalita ng balita, komentaryo sa mga dokumentaryo, mga patalastas ng korporasyon, seryosong mga talakayan sa pampulitika, at paliwanag tungkol sa kasalukuyang pangyayari.",
+      "xiaomei": "Maamo at matamis; malinis, matamis, at magalang ang tinig, parang isang propesyonal na tagapaglingkod o isang matalinong ate. Mainam para sa online na serbisyo sa kostumer, mga boses na asistenteng digital, mga kuwento para sa mga bata, anunsyo sa mall, at mga paalala tungkol sa pang-araw-araw na pamumuhay.",
+      "yunjian": "Masigla at mapusok; mabilis ang pagbigkas at puno ng lakas at galaw; napakasigla at nakakahawa ang tinig. Mainam para sa komentaryo sa mga palakasan, komentaryo sa mga laro na may labanan, mga patalastas para sa promosyon, at mga \"roaring\" na panauhing boses sa mga maikling video.",
+      "yunxia": "Kaibig-ibig at tulad ng bata; malambot, dalisay, at kaibig-ibig ang tinig, tipikal na tinig ng isang bata. Mainam para sa edukasyon ng mga bata, pagbabasa ng mga librong may larawan para sa mga bata, mga karakter na maliit na bata sa mga animation, at pagdudugtong ng boses sa mga video tungkol sa mga alagang hayop.",
+      "xiaobei": "Maluwag, nakakatawa, at tunay na nakakabuti; may likas na katatawanan at kapangyarihan ng mga tao mula sa hilagang silangan ng Tsina, na nagpapatingkad sa pakiramdam ng pagiging malapit. Mainam para sa mga nakakatawang kwento, mga vlog tungkol sa buhay, pagkukuwento na may konteksto mula sa hilagang silangan ng Tsina, at mga live na broadcast na may natatanging estilo para sa pagbebenta ng mga produkto.",
+      "xiaoni": "Payapa, matapat, at may sariling kulay; nagpapakita ng lokal na kultura at kalagayan ng mga tao sa hilagang kanluran ng Tsina, puno ng damdamin at lakas. Mainam para sa pagpapakilala ng kasaysayan at kultura (halimbawa, turismo sa Xi'an), pagtataguyod ng mga espesyalidad sa pagkain sa lugar, at paliwanag sa mga pelikula at dokumentaryo na tumatalakay sa buhay sa kanayunan ng hilagang kanluran ng Tsina.",
+      "wanlong": "Matanda, matatag, at may pakiramdam ng negosyo; mayroong tipikal na istilo ng mga elitista sa Hong Kong sa tono nito, na may wastong at propesyonal na pagbigkas. Mainam para sa pagbabalita ng impormasyon sa pananalapi, mga patalastas ng korporasyon, at paliwanag sa mga drama sa negosyo na may temang Hong Kong.",
+      "hiugaai": "Malambot, intelektuwal, at tunay na Cantonese; ito ay isang napaka-standard na pagbigkas ng Cantonese, na natural ang tono. Mainam para sa balita sa lugar na gumagamit ng Cantonese, host ng radyo, at mga gabay tungkol sa pang-araw-araw na buhay.",
+      "hiumaan": "Elegante, kalmado, at may klasikong dating; kumpara kay Xiaojia, tila mas erudito at tahimik ang pananalita niya. Mainam para sa pagbabasa ng audiobook, komentaryo sa mga dokumentaryo, at mga patalastas ng mga de-kalidad na tatak.",
+      "yunjhe": "Maamo, matino, at may kahalintulad sa gatas na dating; tipikal na pagbigkas ng mga lalaking Taiwanese na may mababang tono at walang agresibong tono. Mainam para sa mga nakakaginhawang maikling video, paliwanag sa mga drama ng kabataan at idolo, mga radyong pang-emosyon, at paalala tungkol sa mga praktikal na payo sa buhay",
+      "hsiaochen": "Matamis, maaraw, at puno ng sigla; tila isang masiglang kapitbahay na batang babae na lubos na kaaya-aya. Mainam para sa impormasyon sa aliw, komentaryo sa mga palabas na variety show, mga Vlog na may istilong makabata, at alarm clock tuwing umaga",
+      "hsiaoyu": "Propesyonal, malinaw, at intelektwal; ito ang tipikal na estilo ng tagapagbalita ng \"Taiwanese Mandarin\" na may malinaw na artikulasyon at napakagandang pakiramdam ng pagiging kaaya-aya. Mainam para sa mga video na pang-edukasyon, pagpapaliwanag sa mga online na kurso, mga matalinong boses na asistenteng pantulong, at mga gabay na boses sa mga pormal na okasyon"
+    }
+  }
+}

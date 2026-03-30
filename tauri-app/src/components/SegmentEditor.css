@@ -1,0 +1,54 @@
+.segment-editor-content {
+    width: 100%;
+    min-height: 60px;
+    padding: 28px 12px 12px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    resize: none;
+    outline: none;
+    font-size: 14px;
+    line-height: 2;
+    transition: all 0.2s;
+    background: white;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.segment-editor-content:focus {
+    border-color: #f97316;
+    box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.1);
+}
+
+.segment-editor-content:empty:before {
+    content: attr(data-placeholder);
+    color: #9ca3af;
+    pointer-events: none;
+}
+
+/* 确保所有标记样式在段落编辑器中也能正常显示 */
+.segment-editor-content .speed-marker-wrapper,
+.segment-editor-content .number-marker-wrapper,
+.segment-editor-content .polyphone-marker-wrapper,
+.segment-editor-content .reread-marker-wrapper,
+.segment-editor-content .sound-effect-marker,
+.segment-editor-content .voice-marker-wrapper {
+    display: inline-flex;
+}
+
+/* 深色模式支持 */
+@media (prefers-color-scheme: dark) {
+    .segment-editor-content {
+        background: #1f2937;
+        border-color: #374151;
+        color: #f3f4f6;
+    }
+
+    .segment-editor-content:focus {
+        border-color: #f97316;
+        box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.2);
+    }
+
+    .segment-editor-content:empty:before {
+        color: #6b7280;
+    }
+}

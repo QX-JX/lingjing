@@ -1,0 +1,263 @@
+{
+  "app": {
+    "name": "灵境配音",
+    "subtitle": "鲲穹AI旗下产品"
+  },
+  "header": {
+    "login": "登录",
+    "loggingIn": "登录中...",
+    "logout": "退出当前账号",
+    "closeWindow": "关闭窗口",
+    "settings": "设置",
+    "minimize": "最小化",
+    "maximize": "最大化",
+    "restore": "还原",
+    "close": "关闭"
+  },
+  "settings": {
+    "title": "设置",
+    "officialWebsite": "官方网站",
+    "noOfficialWebsite": "暂无官方网站地址",
+    "feedback": "问题反馈",
+    "checkUpdate": "检查更新",
+    "checking": "检查中...",
+    "close": "关闭",
+    "language": "语言"
+  },
+  "update": {
+    "foundNew": "发现新版本 {version}！",
+    "currentVersion": "当前版本 {version}",
+    "updateContent": "更新内容：",
+    "updateLater": "稍后更新",
+    "updateNow": "立即更新",
+    "alreadyLatest": "恭喜您，当前已是最新版本"
+  },
+  "login": {
+    "waiting": "等待登录",
+    "completeInBrowser": "请在浏览器中完成登录操作",
+    "cancelLogin": "取消登录",
+    "loggedIn": "已登录鲲穹账户"
+  },
+  "toolbar": {
+    "undo": "撤销",
+    "redo": "重做",
+    "clear": "清除",
+    "copy": "复制",
+    "insertPause": "插入停顿",
+    "speedChange": "变速",
+    "reread": "重读",
+    "numericReading": "数字读法",
+    "multipleSpeakers": "多发音人",
+    "polyphonic": "多音字",
+    "specialEffects": "特效音",
+    "backgroundMusic": "背景音乐",
+    "import": "导入",
+    "historyBackup": "历史备份"
+  },
+  "clear": {
+    "clearAll": "清除所有内容",
+    "clearFormatOnly": "仅清除格式"
+  },
+  "pause": {
+    "title": "停顿时间"
+  },
+  "speed": {
+    "title": "变速"
+  },
+  "numberReading": {
+    "title": "数字读法",
+    "digits": "读数字",
+    "digitsDesc": "如：123 读作 \"一二三\"",
+    "cardinal": "读数值",
+    "cardinalDesc": "如：123 读作 \"一百二十三\"",
+    "telephone": "读号码",
+    "telephoneDesc": "如：123 读作 \"幺二三\""
+  },
+  "polyphone": {
+    "pronunciation": "\"{char}\" 的读音"
+  },
+  "voice": {
+    "selectVoice": "选择发音人",
+    "more": "更多",
+    "voiceSettings": "发音人配置",
+    "speed": "语速",
+    "volume": "音量",
+    "pitch": "音调",
+    "low": "低",
+    "high": "高",
+    "small": "小",
+    "large": "大",
+    "preview": "预览",
+    "stopPreview": "停止预览",
+    "apply": "应用",
+    "cancel": "取消",
+    "loadingVoices": "加载发音人列表..."
+  },
+  "soundEffect": {
+    "title": "特效音",
+    "musicList": "音乐列表",
+    "localImport": "本地导入",
+    "searchPlaceholder": "请输入背景音乐名称",
+    "noResults": "未找到匹配的音效",
+    "noEffects": "暂无音效",
+    "uploadHint": "(请上传1M以内的mp3音频文件)",
+    "uploading": "上传中...",
+    "uploadFromLocal": "+ 从本地导入",
+    "totalEffects": "共{count}首音效",
+    "manage": "管理",
+    "play": "播放",
+    "favorite": "收藏",
+    "unfavorite": "取消收藏",
+    "delete": "删除",
+    "confirmDelete": "确定要删除音效\"{name}\"吗?"
+  },
+  "backgroundMusic": {
+    "title": "背景音乐",
+    "musicList": "音乐列表",
+    "localImport": "本地导入",
+    "noBgm": "无背景音乐",
+    "preview": "试听",
+    "stopPreview": "停止试听",
+    "remove": "移除背景音乐",
+    "volume": "音量",
+    "uploadLocalMusic": "点击上传本地音乐",
+    "supportFormat": "支持 MP3 格式，最大 10MB",
+    "selectMp3": "请选择 MP3 格式的音频文件",
+    "fileTooLarge": "文件大小不能超过 10MB",
+    "uploadSuccess": "背景音乐上传成功",
+    "uploadFailed": "上传失败: {error}"
+  },
+  "import": {
+    "title": "导入文本",
+    "uploadDocument": "上传文档",
+    "clickToUpload": "点击上传",
+    "supportFormat": "支持 txt、doc、docx 格式, 2M以内",
+    "processing": "正在处理文件...",
+    "fileEmpty": "文件内容为空",
+    "fileEmptyAfterClean": "文件内容为空或只包含空白字符",
+    "truncated": "文本已自动截断：{original} 字 → {final} 字（最大 {max} 字）",
+    "appendOrOverwrite": "是否追加到当前文本？\n\n导入文本可见字符数：{count} / {max}\n点击\"确定\"追加，点击\"取消\"覆盖",
+    "invalidFormat": "不支持的文件格式，请上传 txt、doc 或 docx 文件",
+    "fileTooLarge": "文件大小不能超过 2MB",
+    "selectDocument": "选择文档",
+    "uploadDocxHint": "doc/docx 文件请通过文件对话框选择导入",
+    "importFailed": "导入失败: {error}",
+    "openDialogFailed": "打开文件对话框失败"
+  },
+  "history": {
+    "title": "历史记录",
+    "total": "共 {count} 条",
+    "search": "搜索历史记录...",
+    "clearAll": "清空全部",
+    "loading": "加载中...",
+    "noRecords": "暂无历史记录",
+    "noMatchRecords": "没有找到匹配的记录",
+    "loadSuccess": "已加载历史记录",
+    "loadFailed": "加载历史记录失败",
+    "deleteSuccess": "删除成功",
+    "deleteFailed": "删除失败",
+    "clearSuccess": "已清空所有历史记录",
+    "clearFailed": "清空失败",
+    "confirmDelete": "确定要删除这条历史记录吗？",
+    "confirmClearAll": "确定要清空所有历史记录吗？此操作不可恢复。",
+    "clickToRestore": "点击记录可恢复到编辑器 · 最多保存 100 条记录",
+    "characters": "字",
+    "blank": "空白文档",
+    "unnamed": "未命名记录"
+  },
+  "statusBar": {
+    "preview": "试听",
+    "pause": "暂停",
+    "generating": "生成中... {percent}%",
+    "cancel": "取消",
+    "export": "导出文件",
+    "exporting": "导出中...",
+    "exportSuccess": "导出成功！",
+    "estimatedDuration": "预计时长: {duration}",
+    "charCount": "{count}/5000"
+  },
+  "textEditor": {
+    "placeholder": "请输入文本...",
+    "maxLengthReached": "已到最大输入字数"
+  },
+  "auth": {
+    "title": "鲲穹AI工具箱・软件授权验证",
+    "description": "您当前安装的工具为鲲穹AI工具箱生态应用，需通过工具箱授权码完成激活，以启用完整功能。",
+    "placeholder": "请输入鲲穹AI工具箱授权码",
+    "verify": "验证并激活",
+    "verifying": "验证中...",
+    "getAuthCode": "未获取授权码？点击此处获取",
+    "inputAuthCode": "请输入授权码",
+    "invalidAuthCode": "授权码无效或已过期，请重新获取",
+    "verifyFailed": "验证失败，请检查网络连接"
+  },
+  "ad": {
+    "clickToView": "点击查看"
+  },
+  "toast": {
+    "copied": "文本已复制到剪贴板",
+    "copyFailed": "复制失败，请重试",
+    "noText": "没有可复制的文本",
+    "selectTextForSpeed": "请先选中要变速的文本",
+    "selectTextForReread": "请先选中要添加重读的文本",
+    "selectNumber": "请先选中要添加数字读法的数字",
+    "onlyChinese": "仅支持中文！请选中纯中文文本",
+    "onlyNumber": "只能选择数字！请选中纯数字后再使用此功能",
+    "selectChar": "请先选中一个汉字",
+    "singleCharOnly": "请使用单字识别",
+    "selectChineseChar": "请选择汉字",
+    "notPolyphone": "当前文字不是多音字",
+    "selectTextForVoice": "请先选中要指定发音人的文本",
+    "editorNotInitialized": "编辑器未初始化",
+    "textTooLong": "文本长度超出限制（{count} / {max}）",
+    "cleared": "已清除所有内容",
+    "formatCleared": "已清除格式，保留纯文本",
+    "noContentToKeep": "没有可保留的文本内容",
+    "authCheckFailed": "授权检查失败，请检查网络连接",
+    "noTextInput": "请先输入文本"
+  },
+  "error": {
+    "networkError": "网络连接失败，无法生成音频。\n\n可能的原因：\n• 网络连接不稳定\n• 防火墙阻止了连接\n• Azure TTS 服务暂时不可用\n\n建议：\n• 检查网络连接\n• 稍后重试",
+    "timeout": "生成超时，请尝试：\n• 缩短文本长度\n• 检查网络速度\n• 稍后重试",
+    "longTextTimeout": "生成超时（文本长度: {count} 字）。\n\n长文本处理需要更长时间，请尝试：\n• 等待更长时间（长文本可能需要 5-10 分钟）\n• 分段生成（每次不超过 1000 字）\n• 检查网络速度\n• 稍后重试",
+    "segmentFailed": "长文本分段处理失败。\n\n建议：\n• 检查网络连接是否稳定\n• 尝试缩短文本长度\n• 分段生成音频后手动合并",
+    "exportError": "导出失败: {error}",
+    "exportNetworkError": "网络连接失败，无法生成音频。请检查网络连接后重试。",
+    "exportTimeout": "生成超时，请尝试缩短文本或稍后重试。",
+    "exportLongTextTimeout": "生成超时（文本长度: {count} 字）。长文本处理需要更长时间，请等待或尝试分段生成。",
+    "longTextDetected": "长文本检测到（{count} 字），将并发处理（约 {segments} 段），请稍候...",
+    "cancelSuccess": "已取消生成"
+  },
+  "voices": {
+    "zhiwei": "云希 (男)",
+    "xiaoyu": "晓晓 (女)",
+    "xiaofeng": "云野 (男)",
+    "xiaomei": "晓伊 (女)",
+    "yunjian": "云健 (男)",
+    "yunxia": "云霞 (女/儿童)",
+    "xiaobei": "晓北 (女) - 东北话",
+    "xiaoni": "晓妮 (女) - 陕西话",
+    "wanlong": "云龙 (男) - 香港",
+    "hiugaai": "晓佳 (女) - 香港粤语",
+    "hiumaan": "晓曼 (女) - 香港",
+    "yunjhe": "云哲 (男) - 台湾",
+    "hsiaochen": "晓辰 (女) - 台湾",
+    "hsiaoyu": "晓语 (女) - 台湾",
+    "description": {
+      "zhiwei": "活泼灵动，阳光、活泼、富有朝气。适合动画旁白、短视频讲解、小说中的少年角色、轻松的教学视频",
+      "xiaoyu": "全能情感，音质温婉、亲切、自然，支持多种情绪。适合有声小说、影视解说、情感类电台、客服机器人、长文本阅读",
+      "xiaofeng": "专业稳重，雄浑、专业、有磁性，接近传统广播电台的新闻主播。适合新闻播报、纪录片旁白、企业宣传片、严肃的学术讲座、时政解说",
+      "xiaomei": "温柔甜美，声音清脆、甜美、有礼貌，像专业的服务人员或知心大姐姐。适合在线客服、语音助理、儿童故事、商场广播、生活贴士提醒",
+      "yunjian": "激情澎湃，语速较快，充满力量感和运动感，声音亢奋极具感染力。适合体育赛事解说、竞技类游戏解说、促销广告、短视频中的「咆哮式」旁白",
+      "yunxia": "可爱童真，稚嫩、纯真、可爱，典型的儿童声线。适合幼儿教育、儿童绘本朗读、动画片低幼角色、萌宠视频配音",
+      "xiaobei": "豪爽、幽默、接地气，自带东北人特有的幽默感和感染力，听起来非常亲切。适合搞笑段子、生活类 Vlog、东北地区背景的故事叙述、极具辨识度的带货直播",
+      "xiaoni": "淳朴、敦厚、有韵味，能够体现出西北地区的风土人情，情感饱满且富有力量。适合历史文化介绍（如西安旅游）、地方特色美食推广、反映西北农村生活的影视解说",
+      "wanlong": "成熟、稳重、商务感，语调带有典型的港式精英气质，发音标准且专业。适合金融资讯播报、企业宣传片、港式商战剧解说",
+      "hiugaai": "柔和、知性、地道，这是非常标准的粤语发音，语感自然。适合粤语地区新闻、电台主持、生活百科",
+      "hiumaan": "优雅、从容、有书卷气，相比晓佳，她的声音听起来更像是一个博学、沉静的演讲者。适合有声书朗读、纪录片旁白、高端品牌广告",
+      "yunjhe": "温柔、儒雅、「奶系」感，典型的台湾男生发音，语调平缓，没有攻击性。适合治愈系短视频、青春偶像剧解说、情感类电台、生活贴士提醒",
+      "hsiaochen": "甜美、阳光、富有活力，听起来像是一位充满朝气的邻家女孩，非常讨喜。适合娱乐资讯、综艺旁白、年轻化的 Vlog、早起闹钟",
+      "hsiaoyu": "专业、清晰、知性，这是典型的「台湾国语」主播风格，咬字清晰，非常有亲和力。适合教育类视频、在线课程讲解、智能语音助理、正式场合的语音引导"
+    }
+  }
+}

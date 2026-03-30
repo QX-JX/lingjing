@@ -1,0 +1,263 @@
+{
+  "app": {
+    "name": "Doppiaggio Lingjing",
+    "subtitle": "Prodotto di Kunqiong AI"
+  },
+  "header": {
+    "login": "Accedi",
+    "loggingIn": "Accesso in corso...",
+    "logout": "Esci dall'account attuale",
+    "closeWindow": "Chiudi finestra",
+    "settings": "Impostazioni",
+    "minimize": "Minimizza",
+    "maximize": "Massimizza",
+    "restore": "Ripristina",
+    "close": "Chiudi"
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "officialWebsite": "Sito ufficiale",
+    "noOfficialWebsite": "Al momento non è disponibile l'indirizzo del sito ufficiale",
+    "feedback": "Feedback sui problemi",
+    "checkUpdate": "Controlla aggiornamenti",
+    "checking": "Controllo in corso...",
+    "close": "Chiudi",
+    "language": "Lingua"
+  },
+  "update": {
+    "foundNew": "È stata trovata una nuova versione {version}!",
+    "currentVersion": "Versione corrente {version}",
+    "updateContent": "Contenuto dell'aggiornamento:",
+    "updateLater": "Aggiorna più tardi",
+    "updateNow": "Aggiorna ora",
+    "alreadyLatest": "Congratulazioni, sei già alla versione più recente"
+  },
+  "login": {
+    "waiting": "In attesa di accesso",
+    "completeInBrowser": "Completa l'accesso nel browser",
+    "cancelLogin": "Annulla accesso",
+    "loggedIn": "Account Kunqiong connesso"
+  },
+  "toolbar": {
+    "undo": "Annulla",
+    "redo": "Ripeti",
+    "clear": "Cancella",
+    "copy": "Copia",
+    "insertPause": "Inserisci pausa",
+    "speedChange": "Modifica velocità",
+    "reread": "Rileggi",
+    "numericReading": "Lettura numerica",
+    "multipleSpeakers": "Più voci",
+    "polyphonic": "Caratteri polifonici",
+    "specialEffects": "Effetti speciali",
+    "backgroundMusic": "Musica di sottofondo",
+    "import": "Importa",
+    "historyBackup": "Backup della cronologia"
+  },
+  "clear": {
+    "clearAll": "Cancella tutto",
+    "clearFormatOnly": "Solo formattazione"
+  },
+  "pause": {
+    "title": "Tempo di pausa"
+  },
+  "speed": {
+    "title": "Velocità"
+  },
+  "numberReading": {
+    "title": "Modalità di lettura dei numeri",
+    "digits": "Leggi come cifre",
+    "digitsDesc": "Esempio: 123 si legge \"uno due tre\"",
+    "cardinal": "Leggi come valore numerico",
+    "cardinalDesc": "Esempio: 123 si legge \"centoventitré\"",
+    "telephone": "Leggi come numero telefonico",
+    "telephoneDesc": "Esempio: 123 si legge \"uno due tre\""
+  },
+  "polyphone": {
+    "pronunciation": "Pronuncia di \"{char}\""
+  },
+  "voice": {
+    "selectVoice": "Seleziona voce",
+    "more": "Altro",
+    "voiceSettings": "Impostazioni voce",
+    "speed": "Velocità",
+    "volume": "Volume",
+    "pitch": "tono",
+    "low": "basso",
+    "high": "alto",
+    "small": "piccolo",
+    "large": "grande",
+    "preview": "anteprima",
+    "stopPreview": "ferma anteprima",
+    "apply": "applica",
+    "cancel": "anulla",
+    "loadingVoices": "Caricamento dell'elenco dei voci..."
+  },
+  "soundEffect": {
+    "title": "Effetti sonori",
+    "musicList": "Elenco musicale",
+    "localImport": "Importazione locale",
+    "searchPlaceholder": "Inserisci il nome della musica di sottofondo",
+    "noResults": "Nessun effetto sonoro corrispondente trovato",
+    "noEffects": "Nessun effetto sonoro disponibile",
+    "uploadHint": "(Carica un file audio mp3 inferiore a 1 MB)",
+    "uploading": "Caricamento in corso...",
+    "uploadFromLocal": "+ Importa dal dispositivo",
+    "totalEffects": "Totale {count} effetti sonori",
+    "manage": "Gestione",
+    "play": "Riproduci",
+    "favorite": "Aggiungi ai preferiti",
+    "unfavorite": "Rimuovi dai preferiti",
+    "delete": "Elimina",
+    "confirmDelete": "Sei sicuro di voler eliminare l'effetto sonoro \"{name}\"?"
+  },
+  "backgroundMusic": {
+    "title": "Musica di sottofondo",
+    "musicList": "Elenco musicale",
+    "localImport": "Importazione locale",
+    "noBgm": "Nessuna musica di sottofondo",
+    "preview": "Anteprima",
+    "stopPreview": "Interrompi l'anteprima",
+    "remove": "Rimuovi la musica di sottofondo",
+    "volume": "Volume",
+    "uploadLocalMusic": "Fai clic per caricare la musica locale",
+    "supportFormat": "Supporta il formato MP3, massimo 10 MB",
+    "selectMp3": "Seleziona un file audio in formato MP3",
+    "fileTooLarge": "Il file non può superare i 10 MB",
+    "uploadSuccess": "Caricamento della musica di sottofondo riuscito",
+    "uploadFailed": "Caricamento fallito: {error}"
+  },
+  "import": {
+    "title": "Importa testo",
+    "uploadDocument": "Carica documento",
+    "clickToUpload": "Fai clic per caricare",
+    "supportFormat": "Supporta i formati txt, doc e docx, entro 2 MB",
+    "processing": "Elaborazione del file in corso...",
+    "fileEmpty": "Il contenuto del file è vuoto",
+    "fileEmptyAfterClean": "Il contenuto del file è vuoto o contiene solo spazi bianchi",
+    "truncated": "Il testo è stato automaticamente troncato: {original} caratteri → {final} caratteri (massimo {max} caratteri)",
+    "appendOrOverwrite": "Aggiungere al testo corrente?\n\nNumero di caratteri visibili nel testo importato: {count} / {max}\nFai clic su \"OK\" per aggiungere, su \"Annulla\" per sostituire",
+    "invalidFormat": "Formato del file non supportato, carica un file txt, doc o docx",
+    "fileTooLarge": "Il file non può superare i 2 MB",
+    "selectDocument": "Seleziona documento",
+    "uploadDocxHint": "Per i file doc/docx, selezionali tramite la finestra di dialogo dei file",
+    "importFailed": "Importazione fallita: {error}",
+    "openDialogFailed": "Impossibile aprire la finestra di dialogo dei file"
+  },
+  "history": {
+    "title": "Cronologia",
+    "total": "Totale {count} voci",
+    "search": "Cerca nella cronologia...",
+    "clearAll": "Svuota tutto",
+    "loading": "Caricamento in corso...",
+    "noRecords": "Nessun record storico disponibile",
+    "noMatchRecords": "Non sono stati trovati record corrispondenti",
+    "loadSuccess": "Record storici caricati con successo",
+    "loadFailed": "Caricamento dei record storici fallito",
+    "deleteSuccess": "Eliminazione riuscita",
+    "deleteFailed": "Eliminazione non riuscita",
+    "clearSuccess": "Tutti i record storici svuotati",
+    "clearFailed": "Svuotamento non riuscito",
+    "confirmDelete": "Sei sicuro di voler eliminare questo record storico?",
+    "confirmClearAll": "Sei sicuro di voler svuotare tutti i record storici? Questa operazione è irreversibile.",
+    "clickToRestore": "Clicca sul record per ripristinarlo nell'editor · Massimo 100 record salvati",
+    "characters": "caratteri",
+    "blank": "Documento vuoto",
+    "unnamed": "Record senza nome"
+  },
+  "statusBar": {
+    "preview": "Ascolto in anteprima",
+    "pause": "Pausa",
+    "generating": "Generazione in corso... {percent}%",
+    "cancel": "Annulla",
+    "export": "Esporta file",
+    "exporting": "Esportazione in corso...",
+    "exportSuccess": "Esportazione riuscita!",
+    "estimatedDuration": "Durata stimata: {duration}",
+    "charCount": "{count}/5000"
+  },
+  "textEditor": {
+    "placeholder": "Inserisci il testo...",
+    "maxLengthReached": "È stato raggiunto il numero massimo di caratteri"
+  },
+  "auth": {
+    "title": "Kunqiong AI Toolbox・Verifica della licenza del software",
+    "description": "Il tool attualmente installato fa parte dell'ecosistema Kunqiong AI Toolbox e deve essere attivato tramite il codice di licenza dell'AI Toolbox per abilitare tutte le funzionalità.",
+    "placeholder": "Inserisci il codice di licenza Kunqiong AI Toolbox",
+    "verify": "Verifica ed attiva",
+    "verifying": "Verifica in corso...",
+    "getAuthCode": "Non hai ottenuto il codice di autorizzazione? Fai clic qui per ottenerlo",
+    "inputAuthCode": "Inserisci il codice di autorizzazione",
+    "invalidAuthCode": "Codice di autorizzazione non valido o scaduto, ottienilo nuovamente",
+    "verifyFailed": "Verifica fallita, controlla la connessione di rete"
+  },
+  "ad": {
+    "clickToView": "Fai clic per visualizzare"
+  },
+  "toast": {
+    "copied": "Il testo è stato copiato negli appunti",
+    "copyFailed": "Copiatura fallita, riprova",
+    "noText": "Nessun testo da copiare",
+    "selectTextForSpeed": "Seleziona prima il testo a cui applicare la modifica della velocità",
+    "selectTextForReread": "Seleziona prima il testo a cui aggiungere la rilettura",
+    "selectNumber": "Seleziona prima i numeri a cui aggiungere la lettura in cifre",
+    "onlyChinese": "Solo cinese supportato! Seleziona un testo interamente in cinese",
+    "onlyNumber": "È possibile selezionare solo numeri! Seleziona un testo composto esclusivamente da numeri prima di utilizzare questa funzione",
+    "selectChar": "Seleziona prima un carattere cinese",
+    "singleCharOnly": "Utilizza il riconoscimento dei singoli caratteri",
+    "selectChineseChar": "Seleziona un carattere cinese",
+    "notPolyphone": "Il carattere corrente non è polifonico",
+    "selectTextForVoice": "Seleziona prima il testo per cui desideri specificare l'interprete",
+    "editorNotInitialized": "L'editor non è stato inizializzato",
+    "textTooLong": "La lunghezza del testo supera il limite ({count} / {max})",
+    "cleared": "Tutto il contenuto è stato cancellato",
+    "formatCleared": "Formattazione rimossa, mantenendo il testo semplice",
+    "noContentToKeep": "Nessun contenuto testuale da conservare",
+    "authCheckFailed": "Controllo dell'autorizzazione non riuscito, verifica la connessione di rete",
+    "noTextInput": "Inserisci prima il testo"
+  },
+  "error": {
+    "networkError": "Connessione di rete non riuscita, impossibile generare l'audio.\n\nPossibili cause:\n• Connessione di rete instabile\n• Firewall che blocca la connessione\n• Servizio TTS di Azure temporaneamente non disponibile\n\nConsigli:\n• Verifica la connessione di rete\n• Riprova più tardi",
+    "timeout": "Tempo massimo di generazione superato, prova a:\n• Ridurre la lunghezza del testo\n• Verificare la velocità della rete\n• Riprovare più tardi",
+    "longTextTimeout": "Tempo massimo di generazione superato (lunghezza del testo: {count} caratteri).\n\nL'elaborazione di testi lunghi richiede più tempo, prova a:\n• Attendere ulteriormente (per testi molto lunghi possono essere necessari 5-10 minuti)\n• Generare in segmenti (non più di 1000 caratteri per volta)\n• Verificare la velocità della rete\n• Riprovare più tardi",
+    "segmentFailed": "Elaborazione in segmenti del testo lungo non riuscita.\n\nConsigli:\n• Verifica che la connessione di rete sia stabile\n• Prova a ridurre la lunghezza del testo\n• Genera gli audio in segmenti e poi uniscili manualmente",
+    "exportError": "Esportazione non riuscita: {error}",
+    "exportNetworkError": "Connessione di rete fallita, impossibile generare l'audio. Controlla la connessione e riprova.",
+    "exportTimeout": "Tempo scaduto durante la generazione; prova a ridurre il testo o riprova più tardi.",
+    "exportLongTextTimeout": "Tempo scaduto durante la generazione (lunghezza del testo: {count} caratteri). L'elaborazione di testi lunghi richiede più tempo; attendi oppure prova a generare in segmenti separati.",
+    "longTextDetected": "Testo lungo rilevato ({count} caratteri): verrà elaborato in parallelo (circa {segments} segmenti). Attendere...",
+    "cancelSuccess": "Generazione annullata"
+  },
+  "voices": {
+    "zhiwei": "Yunxi (maschio)",
+    "xiaoyu": "Xiaoxiao (femmina)",
+    "xiaofeng": "Yunye (maschio)",
+    "xiaomei": "Xiaoyi (femmina)",
+    "yunjian": "Yunjian (maschio)",
+    "yunxia": "Yunxia (femmina/bambina)",
+    "xiaobei": "Xiaobei (femmina) - dialetto del Nord-Est",
+    "xiaoni": "Xiaoni (femmina) - dialetto dello Shaanxi",
+    "wanlong": "Yunlong (maschio) - Hong Kong",
+    "hiugaai": "Xiaojia (femmina) - cantonese di Hong Kong",
+    "hiumaan": "Xiaoman (femmina) - Hong Kong",
+    "yunjhe": "Yunzhe (maschio) - Taiwan",
+    "hsiaochen": "Xiaochen (femmina) - Taiwan",
+    "hsiaoyu": "Xiaoyu (femmina) - Taiwan",
+    "description": {
+      "zhiwei": "Vivace e dinamico, solare, allegro e pieno di energia. Adatto per voce fuori campo di animazioni, spiegazioni in brevi video, ruoli giovanili nei romanzi e video didattici leggeri.",
+      "xiaoyu": "Versatile ed emozionale, con una qualità vocale dolce, cordiale e naturale, capace di esprimere molteplici stati d'animo. Ideale per audiolibri narrativi, commenti audio per film e serie TV, radio a tema emotivo, chatbot per servizi clienti e letture di testi lunghi.",
+      "xiaofeng": "Professionale e sereno, con un timbro possente, autorevole e magnetico, simile ai conduttori dei notiziari delle tradizionali stazioni radio. Adatto per telegiornali, voci fuori campo di documentari, spot aziendali, conferenze accademiche serie e commenti politici.",
+      "xiaomei": "Gentile e dolce, con una voce chiara, amabile e cortese, come quella di un'operatrice professionale o di una sorella maggiore comprensiva. Perfetto per assistenza clienti online, assistenti vocali, racconti per bambini, annunci nei centri commerciali e promemoria utili nella vita quotidiana.",
+      "yunjian": "Passionale e travolgente, con un ritmo veloce, carico di energia e dinamismo; la voce è eccitante e molto coinvolgente. Ideale per telecronache sportive, commenti di giochi competitivi, pubblicità promozionali e narrazioni \"urlate\" nei brevi video.",
+      "yunxia": "Dolce e innocente, con un timbro infantile, puro e adorabile, tipico delle voci dei bambini. Adatto per l'educazione prescolare, la lettura di libri illustrati per bambini, i personaggi piccoli nelle animazioni e il doppiaggio di video di animali teneri.",
+      "xiaobei": "Spiritoso, divertente e genuino, con il caratteristico umorismo e carisma tipico degli abitanti del Nord-Est della Cina; risulta estremamente cordiale e accogliente. Ideale per sketch comici, Vlog sulla vita quotidiana, narrazioni ambientate nella regione del Nord-Est e trasmissioni live di vendita dal tono distintivo.",
+      "xiaoni": "Semplice, sincero e ricco di fascino, capace di evocare lo spirito e le tradizioni del Nord-Ovest della Cina; emozionante e potente. Adatto per presentazioni storiche e culturali (come quelle relative a Xi'an), promozione di specialità gastronomiche locali e commenti audio per produzioni cinematografiche che raccontano la vita nelle campagne del Nord-Ovest.",
+      "wanlong": "Maturo, sereno e dall'aria professionale, con un tono che riflette il tipico stile elitario di Hong Kong; pronuncia accurata e professionale. Ideale per notiziari finanziari, spot aziendali e commenti audio per drammi d'affari ambientati a Hong Kong.",
+      "hiugaai": "Morbida, intellettuale e autentica: si tratta di una pronuncia standard del cantonese, dal tono naturale. Adatta per notiziari, conduzione radiofonica e contenuti enciclopedici nella regione cantonese.",
+      "hiumaan": "Elegante, pacata e colta; rispetto a Xiaojia, la sua voce suona più come quella di una speaker erudita e tranquilla. Perfetta per audiolibri, voci fuori campo di documentari e pubblicità di marchi di alta gamma.",
+      "yunjhe": "Morbida, raffinata, dal tocco «dolce», con un tipico accento maschile taiwanese; il tono è pacato e mai aggressivo. Ideale per video brevi dallo spirito curativo, commenti a serie romantiche per giovani, radio a tema sentimentale e promemoria di consigli per la vita quotidiana",
+      "hsiaochen": "Dolce, solare e piena di energia: sembra una simpatica ragazza della porta accanto, molto piacevole all’ascolto. Adatta a contenuti d’intrattenimento e informazione, voci fuori campo per programmi televisivi, Vlog rivolti ai più giovani e sveglie mattutine",
+      "hsiaoyu": "Professionale, chiara e intellettuale: uno stile da speaker tipico del «mandarino taiwanese», con articolazione nitida e grande capacità di instaurare empatia. Indicata per video didattici, spiegazioni di corsi online, assistenti vocali intelligenti e indicazioni vocali in contesti formali"
+    }
+  }
+}

@@ -4,24 +4,28 @@
 .speed-marker-wrapper {
   display: inline-block;
   position: relative;
+  margin: 0 4px;
 }
 
 /* 变速标签（黄色胶囊） - 作为相对定位容器 */
 .speed-badge {
   position: absolute;
-  top: -22px;
+  top: -14px;
   left: 50%;
   transform: translateX(-50%);
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: 3px;
   background-color: #FCD34D;
   /* yellow-300 */
   color: #78350F;
   /* yellow-900 */
   font-size: 0.75rem;
-  font-weight: 600;
+  /* text-xs，和重读标签一致 */
+  font-weight: 500;
+  /* font-medium，和重读标签一致 */
   padding: 2px 8px;
+  /* py-0.5 px-2，和重读标签一致 */
   border-radius: 9999px;
   white-space: nowrap;
   cursor: default;
@@ -81,4 +85,65 @@
 /* 变速文字 */
 .speed-text {
   display: inline;
+}
+
+/* 文本编辑器滚动条样式 */
+[contenteditable].overflow-y-auto::-webkit-scrollbar {
+  width: 8px;
+}
+
+[contenteditable].overflow-y-auto::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 4px;
+}
+
+[contenteditable].overflow-y-auto::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+[contenteditable].overflow-y-auto::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* 标记样式修复 - 确保所有标记都在同一行显示 */
+.number-marker-wrapper,
+.polyphone-marker-wrapper,
+.pause-marker-wrapper,
+.reread-marker-wrapper,
+.sound-effect-marker,
+.voice-marker-wrapper {
+  display: inline-flex !important;
+  align-items: baseline;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
+.voice-cursor-anchor {
+  font-size: 0;
+  line-height: 0;
+}
+
+/* 重读标记容器 - 与变速胶囊对齐 */
+.reread-marker-wrapper {
+  display: inline-block !important;
+  position: relative;
+  margin: 0 4px;
+}
+
+/* 重读上标胶囊位置对齐变速 */
+.reread-badge {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+/* 桌面端顶栏已有搜索框时，隐藏与官网重复的移动搜索/汉堡按钮，避免多出一排小圆钮 */
+@media (min-width: 1024px) {
+  .header-actions .header-search-btn,
+  .header-actions .mobile-menu-btn {
+    display: none !important;
+  }
 }

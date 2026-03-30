@@ -67,7 +67,7 @@ export function DialogProvider({ children }: { children: ReactNode }) {
         if (!resolveCallback) return;
 
         if (dialogOptions?.type === 'alert') {
-            resolveCallback();
+            resolveCallback(undefined);
         } else if (dialogOptions?.type === 'confirm') {
             resolveCallback(true);
         } else if (dialogOptions?.type === 'prompt') {

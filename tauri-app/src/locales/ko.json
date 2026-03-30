@@ -1,0 +1,263 @@
+{
+  "app": {
+    "name": "링징 더빙",
+    "subtitle": "쿤궁 AI 산하 제품"
+  },
+  "header": {
+    "login": "로그인",
+    "loggingIn": "로그인 중...",
+    "logout": "현재 계정에서 로그아웃",
+    "closeWindow": "창 닫기",
+    "settings": "설정",
+    "minimize": "최소화",
+    "maximize": "최대화",
+    "restore": "복원",
+    "close": "닫기"
+  },
+  "settings": {
+    "title": "설정",
+    "officialWebsite": "공식 웹사이트",
+    "noOfficialWebsite": "아직 공식 웹사이트 주소가 없습니다",
+    "feedback": "문제 피드백",
+    "checkUpdate": "업데이트 확인",
+    "checking": "확인 중...",
+    "close": "닫기",
+    "language": "언어"
+  },
+  "update": {
+    "foundNew": "{version} 새 버전을 발견했습니다!",
+    "currentVersion": "현재 버전 {version}",
+    "updateContent": "업데이트 내용:",
+    "updateLater": "나중에 업데이트",
+    "updateNow": "지금 업데이트",
+    "alreadyLatest": "축하드립니다. 현재 최신 버전입니다"
+  },
+  "login": {
+    "waiting": "로그인 대기 중",
+    "completeInBrowser": "브라우저에서 로그인 작업을 완료해 주세요",
+    "cancelLogin": "로그인 취소",
+    "loggedIn": "쿤궁 계정에 로그인되었습니다"
+  },
+  "toolbar": {
+    "undo": "되돌리기",
+    "redo": "다시 하기",
+    "clear": "지우기",
+    "copy": "복사",
+    "insertPause": "일시정지 삽입",
+    "speedChange": "속도 변경",
+    "reread": "다시 읽기",
+    "numericReading": "숫자 읽기",
+    "multipleSpeakers": "다중 발음인",
+    "polyphonic": "다음자",
+    "specialEffects": "특수 효과음",
+    "backgroundMusic": "배경 음악",
+    "import": "불러오기",
+    "historyBackup": "이전 버전 백업"
+  },
+  "clear": {
+    "clearAll": "모든 내용 지우기",
+    "clearFormatOnly": "서식만 지우기"
+  },
+  "pause": {
+    "title": "일시정지 시간"
+  },
+  "speed": {
+    "title": "속도 변경"
+  },
+  "numberReading": {
+    "title": "숫자 읽기",
+    "digits": "숫자로 읽기",
+    "digitsDesc": "예: 123을 \"일 이 삼\"으로 읽습니다.",
+    "cardinal": "수치로 읽기",
+    "cardinalDesc": "예: 123을 \"백이십삼\"으로 읽습니다.",
+    "telephone": "번호로 읽기",
+    "telephoneDesc": "예: 123을 \"요이삼\"으로 읽습니다."
+  },
+  "polyphone": {
+    "pronunciation": "\"{char}\"의 발음"
+  },
+  "voice": {
+    "selectVoice": "발음인 선택",
+    "more": "더 보기",
+    "voiceSettings": "발음인 설정",
+    "speed": "말하기 속도",
+    "volume": "음량",
+    "pitch": "음조",
+    "low": "낮음",
+    "high": "높음",
+    "small": "작음",
+    "large": "큼",
+    "preview": "미리 보기",
+    "stopPreview": "미리 보기 중지",
+    "apply": "적용",
+    "cancel": "취소",
+    "loadingVoices": "발음인 목록 로딩 중..."
+  },
+  "soundEffect": {
+    "title": "특수 효과 음",
+    "musicList": "음악 목록",
+    "localImport": "로컬 가져오기",
+    "searchPlaceholder": "배경 음악 이름을 입력하세요",
+    "noResults": "일치하는 효과음이 없습니다",
+    "noEffects": "현재 효과음이 없습니다",
+    "uploadHint": "(1M 이하의 mp3 오디오 파일을 업로드해 주세요)",
+    "uploading": "업로드 중...",
+    "uploadFromLocal": "+ 로컬에서 가져오기",
+    "totalEffects": "{count}개의 총 효과음",
+    "manage": "관리",
+    "play": "재생",
+    "favorite": "즐겨찾기",
+    "unfavorite": "즐겨찾기 취소",
+    "delete": "삭제",
+    "confirmDelete": "효과음 \"{name}\"을 삭제하시겠습니까?"
+  },
+  "backgroundMusic": {
+    "title": "배경 음악",
+    "musicList": "음악 목록",
+    "localImport": "로컬 가져오기",
+    "noBgm": "배경 음악 없음",
+    "preview": "시청",
+    "stopPreview": "시청 중지",
+    "remove": "배경 음악 제거",
+    "volume": "음량",
+    "uploadLocalMusic": "클릭하여 로컬 음악 업로드",
+    "supportFormat": "MP3 형식 지원, 최대 10MB",
+    "selectMp3": "MP3 형식의 오디오 파일을 선택해 주세요",
+    "fileTooLarge": "파일 크기는 10MB를 초과할 수 없습니다",
+    "uploadSuccess": "배경 음악 업로드 성공",
+    "uploadFailed": "업로드 실패: {error}"
+  },
+  "import": {
+    "title": "텍스트 가져오기",
+    "uploadDocument": "문서 업로드",
+    "clickToUpload": "클릭하여 업로드",
+    "supportFormat": "txt, doc, docx 형식 지원, 2M 이내",
+    "processing": "파일 처리 중...",
+    "fileEmpty": "파일 내용이 비어 있습니다",
+    "fileEmptyAfterClean": "파일 내용이 비어 있거나 공백 문자만 포함되어 있습니다",
+    "truncated": "텍스트가 자동으로 잘림: {original}자 → {final}자 (최대 {max}자)",
+    "appendOrOverwrite": "현재 텍스트에 추가하시겠습니까?\n\n가져온 텍스트 가시 문자 수: {count}/{max}\n\"확인\"을 클릭하면 추가되고, \"취소\"를 클릭하면 덮어씁니다",
+    "invalidFormat": "지원되지 않는 파일 형식입니다. txt, doc 또는 docx 파일을 업로드해 주세요",
+    "fileTooLarge": "파일 크기는 2MB를 초과할 수 없습니다",
+    "selectDocument": "문서 선택",
+    "uploadDocxHint": "doc/docx 파일은 파일 대화상자를 통해 선택하여 가져와 주세요",
+    "importFailed": "가져오기 실패: {error}",
+    "openDialogFailed": "파일 열기 대화상자 열기 실패"
+  },
+  "history": {
+    "title": "히스토리",
+    "total": "총 {count}개",
+    "search": "히스토리 검색...",
+    "clearAll": "전체 삭제",
+    "loading": "로딩 중...",
+    "noRecords": "현재 기록이 없습니다",
+    "noMatchRecords": "일치하는 기록을 찾을 수 없습니다",
+    "loadSuccess": "기록을 성공적으로 로드했습니다",
+    "loadFailed": "기록 로드에 실패했습니다",
+    "deleteSuccess": "삭제가 성공적으로 완료되었습니다",
+    "deleteFailed": "삭제에 실패했습니다",
+    "clearSuccess": "모든 기록을 성공적으로 삭제했습니다",
+    "clearFailed": "삭제에 실패했습니다",
+    "confirmDelete": "이 기록을 정말 삭제하시겠습니까?",
+    "confirmClearAll": "모든 기록을 정말 삭제하시겠습니까? 이 작업은 복구할 수 없습니다.",
+    "clickToRestore": "기록을 클릭하면 편집기에 복원됩니다 · 최대 100개의 기록 저장 가능",
+    "characters": "글자",
+    "blank": "빈 문서",
+    "unnamed": "이름 없는 기록"
+  },
+  "statusBar": {
+    "preview": "듣기",
+    "pause": "일시정지",
+    "generating": "생성 중... {percent}%",
+    "cancel": "취소",
+    "export": "파일 내보내기",
+    "exporting": "내보내는 중...",
+    "exportSuccess": "내보내기가 성공적으로 완료되었습니다!",
+    "estimatedDuration": "예상 소요 시간: {duration}",
+    "charCount": "{count}/5000"
+  },
+  "textEditor": {
+    "placeholder": "텍스트를 입력하세요...",
+    "maxLengthReached": "입력 가능한 최대 글자 수에 도달했습니다"
+  },
+  "auth": {
+    "title": "쿤궁 AI 도구 상자・소프트웨어 라이선스 인증",
+    "description": "현재 설치된 도구는 쿤궁 AI 도구 상자의 에코 애플리케이션으로, 도구 상자의 라이선스 코드로 활성화해야만 모든 기능을 사용할 수 있습니다.",
+    "placeholder": "쿤궁 AI 도구 상자의 라이선스 코드를 입력해 주세요",
+    "verify": "인증 및 활성화",
+    "verifying": "인증 중...",
+    "getAuthCode": "인증 코드를 받지 못하셨나요? 여기를 클릭하여 받으세요",
+    "inputAuthCode": "인증 코드를 입력하세요",
+    "invalidAuthCode": "인증 코드가 유효하지 않거나 만료되었습니다. 다시 받아주세요",
+    "verifyFailed": "인증에 실패했습니다. 네트워크 연결을 확인해 주세요"
+  },
+  "ad": {
+    "clickToView": "클릭해서 보기"
+  },
+  "toast": {
+    "copied": "텍스트가 클립보드에 복사되었습니다",
+    "copyFailed": "복사에 실패했습니다. 다시 시도해 주세요",
+    "noText": "복사할 텍스트가 없습니다",
+    "selectTextForSpeed": "속도 조절할 텍스트를 먼저 선택해 주세요",
+    "selectTextForReread": "재독 추가할 텍스트를 먼저 선택해 주세요",
+    "selectNumber": "숫자 읽기 방식을 추가할 숫자를 먼저 선택해 주세요",
+    "onlyChinese": "중국어만 지원됩니다! 순수 중국어 텍스트를 선택해 주세요",
+    "onlyNumber": "숫자만 선택 가능합니다! 순수 숫자를 선택한 후 이 기능을 사용해 주세요",
+    "selectChar": "한자를 먼저 선택해 주세요",
+    "singleCharOnly": "한 글자 인식을 사용해 주세요",
+    "selectChineseChar": "한자를 선택해 주세요",
+    "notPolyphone": "현재 글자는 다음성자가 아닙니다",
+    "selectTextForVoice": "발음자를 지정할 텍스트를 먼저 선택해 주세요",
+    "editorNotInitialized": "편집기가 초기화되지 않았습니다",
+    "textTooLong": "텍스트 길이가 제한을 초과했습니다 ({count} / {max})",
+    "cleared": "모든 내용이 삭제되었습니다",
+    "formatCleared": "서식은 삭제되고 순수 텍스트만 유지됩니다",
+    "noContentToKeep": "유지할 텍스트 내용이 없습니다",
+    "authCheckFailed": "인증 검사에 실패했습니다. 네트워크 연결을 확인해 주세요",
+    "noTextInput": "먼저 텍스트를 입력해 주세요"
+  },
+  "error": {
+    "networkError": "네트워크 연결 오류로 오디오를 생성할 수 없습니다.\n\n원인:\n• 불안정한 네트워크 연결\n• 방화벽으로 인한 연결 차단\n• Azure TTS 서비스 일시적 이용 불가\n\n권장 사항:\n• 네트워크 연결 상태 확인\n• 잠시 후 다시 시도",
+    "timeout": "생성 시간 초과입니다. 다음을 시도해 보세요:\n• 텍스트 길이를 줄이기\n• 네트워크 속도 확인하기\n• 나중에 다시 시도하기",
+    "longTextTimeout": "생성 시간 초과(텍스트 길이: {count} 자).\n\n긴 텍스트 처리에는 더 많은 시간이 소요되므로 다음을 시도해 보세요:\n• 더 오랜 시간 기다리기(긴 텍스트는 5~10분 정도 소요될 수 있습니다)\n• 텍스트를 여러 부분으로 나누어 생성하기(한 번에 1000자 이하)\n• 네트워크 속도 확인하기\n• 나중에 다시 시도하기",
+    "segmentFailed": "긴 텍스트 분할 처리에 실패했습니다.\n\n권장 사항:\n• 네트워크 연결이 안정적인지 확인하기\n• 텍스트 길이를 줄여보기\n• 오디오를 분할 생성한 뒤 수동으로 합치기",
+    "exportError": "내보내기에 실패했습니다: {error}",
+    "exportNetworkError": "네트워크 연결 실패로 오디오를 생성할 수 없습니다. 네트워크 연결을 확인한 후 다시 시도해 주세요.",
+    "exportTimeout": "생성 시간이 초과되었습니다. 텍스트를 줄이거나 잠시 후 다시 시도해 주세요.",
+    "exportLongTextTimeout": "생성 시간이 초과되었습니다 (텍스트 길이: {count} 자). 긴 텍스트 처리에는 더 많은 시간이 필요하니, 기다려 주시거나 분할하여 생성해 보세요.",
+    "longTextDetected": "긴 텍스트가 감지되었습니다 ({count} 자). 병렬 처리 중입니다 (약 {segments}개의 세그먼트), 잠시만 기다려 주세요...",
+    "cancelSuccess": "생성이 취소되었습니다"
+  },
+  "voices": {
+    "zhiwei": "윈시 (남)",
+    "xiaoyu": "샤오샤오 (여)",
+    "xiaofeng": "윈예 (남)",
+    "xiaomei": "샤오이 (여)",
+    "yunjian": "윈젠 (남)",
+    "yunxia": "윈샤 (여/아동)",
+    "xiaobei": "샤오베이 (여) - 동북 방언",
+    "xiaoni": "샤오니 (여) - 산시 방언",
+    "wanlong": "윈룽 (남) - 홍콩",
+    "hiugaai": "샤오자 (여) - 홍콩 광둥어",
+    "hiumaan": "샤오만 (여) - 홍콩",
+    "yunjhe": "윈저 (남) - 타이완",
+    "hsiaochen": "샤오천 (여) - 타이완",
+    "hsiaoyu": "샤오위 (여) - 타이완",
+    "description": {
+      "zhiwei": "활발하고 경쾌하며, 밝고 생기 넘치는 목소리입니다. 애니메이션 내레이션, 짧은 영상 해설, 소설 속 청소년 캐릭터, 가벼운 교육용 영상에 적합합니다.",
+      "xiaoyu": "다양한 감정 표현이 가능한 온화하고 친근하며 자연스러운 음색입니다. 오디오북, 영화 및 드라마 해설, 감성 라디오 프로그램, 고객 서비스 로봇, 장문 텍스트 읽기에 적합합니다.",
+      "xiaofeng": "중후하고 안정감 있는 목소리로, 전통적인 라디오 뉴스 앵커와 유사합니다. 뉴스 보도, 다큐멘터리 내레이션, 기업 홍보영상, 엄숙한 학술 강연, 정치 관련 해설에 적합합니다.",
+      "xiaomei": "부드럽고 상냥한 목소리로, 명료하고 예의 바르며 전문적인 서비스 직원이나 다정한 언니 같은 느낌입니다. 온라인 고객센터, 음성 비서, 어린이 동화, 상업시설 안내방송, 생활 팁 알림에 적합합니다.",
+      "yunjian": "강렬하고 역동적인 목소리로, 빠른 말투와 힘찬 에너지를 지니고 있습니다. 스포츠 경기 해설, e스포츠 게임 해설, 판촉 광고, 짧은 영상의 호통형 내레이션에 적합합니다.",
+      "yunxia": "귀엽고 천진난만한 어린이 목소리로, 순수하고 사랑스러운 느낌을 줍니다. 유아 교육, 그림책 낭독, 애니메이션 저연령 캐릭터, 귀여운 반려동물 영상 더빙에 적합합니다.",
+      "xiaobei": "호탕하고 유머러스하며, 톡톡 튀는 동북 지역 특유의 유쾌함과 친근함이 돋보입니다. 웃긴 일화, 일상 Vlog, 동북 지역 배경의 이야기, 인지도 높은 라이브 커머스 방송에 적합합니다.",
+      "xiaoni": "순박하고 두터우며 서정적인 목소리로, 서북 지역의 정취와 풍토를 잘 표현합니다. 역사 문화 소개(예: 시안 관광), 지역 특산 음식 홍보, 서북 농촌 생활을 담은 영상 해설에 적합합니다.",
+      "wanlong": "성숙하고 안정감 있으며 비즈니스적인 느낌으로, 홍콩 특유의 엘리트적 분위기가 느껴집니다. 발음이 표준적이고 전문적입니다. 금융 정보 전달, 기업 홍보영상, 홍콩식 비즈니스 드라마 해설에 적합합니다.",
+      "hiugaai": "부드럽고 지적이며 정통적인 광둥어 발음을 구사합니다. 자연스러운 어조로, 광둥어권 뉴스, 라디오 진행, 생활 정보 프로그램에 적합합니다.",
+      "hiumaan": "우아하고 여유로우며 책 읽는 사람 같은 분위기를 풍깁니다. 샤오자에 비해 더 박식하고 차분한 연사처럼 들립니다. 오디오북 낭독, 다큐멘터리 내레이션, 고급 브랜드 광고에 적합합니다.",
+      "yunjhe": "부드럽고 유려하며, '밀크계' 감성의 전형적인 대만 남자 발음으로, 어조가 부드러워 공격적이지 않습니다. 힐링 스타일의 숏폼 영상, 청춘 아이돌 드라마 해설, 감성 라디오 프로그램, 생활 팁 알림에 적합합니다.",
+      "hsiaochen": "달콤하고 밝으며 활력이 넘치는 목소리로, 활기찬 이웃집 소녀 같은 느낌이라 매우 호감도가 높습니다. 엔터테인먼트 정보, 예능 내레이션, 젊은 감각의 Vlog, 아침 알람 시계에 적합합니다.",
+      "hsiaoyu": "전문적이고 명확하며 지적인, 전형적인 '대만 표준어' 아나운서 스타일입니다. 발음이 또렷하고 친근감이 뛰어납니다. 교육용 영상, 온라인 강의 해설, 스마트 음성 비서, 공식 행사 안내 음성 등에 적합합니다."
+    }
+  }
+}

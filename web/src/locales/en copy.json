@@ -1,0 +1,263 @@
+{
+  "app": {
+    "name": "Spirit Realm Voice Acting",
+    "subtitle": "A product under Kunqiong AI"
+  },
+  "header": {
+    "login": "Login",
+    "loggingIn": "Logging in...",
+    "logout": "Log out of the current account",
+    "closeWindow": "Close window",
+    "settings": "Settings",
+    "minimize": "Minimize",
+    "maximize": "Maximize",
+    "restore": "Restore",
+    "close": "Close"
+  },
+  "settings": {
+    "title": "Settings",
+    "officialWebsite": "Official Website",
+    "noOfficialWebsite": "No official website address available yet",
+    "feedback": "Feedback",
+    "checkUpdate": "Check for Updates",
+    "checking": "Checking...",
+    "close": "Close",
+    "language": "Language"
+  },
+  "update": {
+    "foundNew": "Found a new version {version}!",
+    "currentVersion": "Current version {version}",
+    "updateContent": "Update content:",
+    "updateLater": "Update Later",
+    "updateNow": "Update Now",
+    "alreadyLatest": "Congratulations, you are already on the latest version"
+  },
+  "login": {
+    "waiting": "Waiting to log in",
+    "completeInBrowser": "Please complete the login process in your browser",
+    "cancelLogin": "Cancel Login",
+    "loggedIn": "Kunqiong account logged in"
+  },
+  "toolbar": {
+    "undo": "Undo",
+    "redo": "Redo",
+    "clear": "Clear",
+    "copy": "Copy",
+    "insertPause": "Insert Pause",
+    "speedChange": "Speed Change",
+    "reread": "Reread",
+    "numericReading": "Numeric Reading",
+    "multipleSpeakers": "Multiple Speakers",
+    "polyphonic": "Polyphonic Characters",
+    "specialEffects": "Special Effects",
+    "backgroundMusic": "Background Music",
+    "import": "Import",
+    "historyBackup": "History Backup"
+  },
+  "clear": {
+    "clearAll": "Clear All Content",
+    "clearFormatOnly": "Clear Formatting Only"
+  },
+  "pause": {
+    "title": "Pause Duration"
+  },
+  "speed": {
+    "title": "Speed Change"
+  },
+  "numberReading": {
+    "title": "Numeric Reading",
+    "digits": "Read as Digits",
+    "digitsDesc": "For example: 123 is read as \"one two three\"",
+    "cardinal": "Read as Cardinal Number",
+    "cardinalDesc": "For example: 123 is read as \"one hundred twenty-three\"",
+    "telephone": "Read as Telephone Number",
+    "telephoneDesc": "For example: 123 is read as \"yao er san\""
+  },
+  "polyphone": {
+    "pronunciation": "Pronunciation of \"{char}\""
+  },
+  "voice": {
+    "selectVoice": "Select Voice",
+    "more": "More",
+    "voiceSettings": "Voice Settings",
+    "speed": "Speech Rate",
+    "volume": "Volume",
+    "pitch": "Pitch",
+    "low": "Low",
+    "high": "High",
+    "small": "Small",
+    "large": "Large",
+    "preview": "Preview",
+    "stopPreview": "Stop Preview",
+    "apply": "Apply",
+    "cancel": "Cancel",
+    "loadingVoices": "Loading voice list..."
+  },
+  "soundEffect": {
+    "title": "Sound Effects",
+    "musicList": "Music List",
+    "localImport": "Local Import",
+    "searchPlaceholder": "Enter background music name",
+    "noResults": "No matching sound effects found",
+    "noEffects": "No sound effects available",
+    "uploadHint": "(Please upload an MP3 audio file under 1MB)",
+    "uploading": "Uploading...",
+    "uploadFromLocal": "+ Import from Local",
+    "totalEffects": "Total {count} sound effects",
+    "manage": "Manage",
+    "play": "Play",
+    "favorite": "Favorite",
+    "unfavorite": "Unfavorite",
+    "delete": "Delete",
+    "confirmDelete": "Are you sure you want to delete the sound effect \"{name}\"?"
+  },
+  "backgroundMusic": {
+    "title": "Background Music",
+    "musicList": "Music List",
+    "localImport": "Local Import",
+    "noBgm": "No background music",
+    "preview": "Preview",
+    "stopPreview": "Stop Preview",
+    "remove": "Remove Background Music",
+    "volume": "Volume",
+    "uploadLocalMusic": "Click to Upload Local Music",
+    "supportFormat": "Supports MP3 format, up to 10MB",
+    "selectMp3": "Please select an MP3 audio file",
+    "fileTooLarge": "File size cannot exceed 10MB",
+    "uploadSuccess": "Background music uploaded successfully",
+    "uploadFailed": "Upload failed: {error}"
+  },
+  "import": {
+    "title": "Import Text",
+    "uploadDocument": "Upload Document",
+    "clickToUpload": "Click to Upload",
+    "supportFormat": "Supports txt, doc, and docx formats, within 2MB",
+    "processing": "Processing file...",
+    "fileEmpty": "File content is empty",
+    "fileEmptyAfterClean": "File content is empty or contains only whitespace characters",
+    "truncated": "Text has been automatically truncated: {original} characters → {final} characters (maximum {max} characters)",
+    "appendOrOverwrite": "Append to current text?\n\nVisible characters in imported text: {count} / {max}\nClick \"OK\" to append, click \"Cancel\" to overwrite",
+    "invalidFormat": "Unsupported file format. Please upload a txt, doc, or docx file",
+    "fileTooLarge": "File size cannot exceed 2MB",
+    "selectDocument": "Select Document",
+    "uploadDocxHint": "Please select doc/docx files through the file dialog to import",
+    "importFailed": "Import failed: {error}",
+    "openDialogFailed": "Failed to open file dialog"
+  },
+  "history": {
+    "title": "History",
+    "total": "Total {count} entries",
+    "search": "Search history...",
+    "clearAll": "Clear All",
+    "loading": "Loading...",
+    "noRecords": "No history records yet",
+    "noMatchRecords": "No matching records found",
+    "loadSuccess": "History loaded successfully",
+    "loadFailed": "Failed to load history",
+    "deleteSuccess": "Deleted successfully",
+    "deleteFailed": "Deletion failed",
+    "clearSuccess": "All history cleared successfully",
+    "clearFailed": "Clearing failed",
+    "confirmDelete": "Are you sure you want to delete this history record?",
+    "confirmClearAll": "Are you sure you want to clear all history? This action cannot be undone.",
+    "clickToRestore": "Click a record to restore it to the editor · Up to 100 records saved",
+    "characters": "characters",
+    "blank": "Blank document",
+    "unnamed": "Unnamed record"
+  },
+  "statusBar": {
+    "preview": "Preview",
+    "pause": "Pause",
+    "generating": "Generating... {percent}%",
+    "cancel": "Cancel",
+    "export": "Export file",
+    "exporting": "Exporting...",
+    "exportSuccess": "Export successful!",
+    "estimatedDuration": "Estimated duration: {duration}",
+    "charCount": "{count}/5000"
+  },
+  "textEditor": {
+    "placeholder": "Please enter text...",
+    "maxLengthReached": "Maximum character limit reached"
+  },
+  "auth": {
+    "title": "Kunqiong AI Toolbox - Software License Verification",
+    "description": "The tool you have installed is an ecosystem application of Kunqiong AI Toolbox and requires activation via a toolbox license key to unlock full functionality.",
+    "placeholder": "Please enter the Kunqiong AI Toolbox license key",
+    "verify": "Verify and Activate",
+    "verifying": "Verifying...",
+    "getAuthCode": "Not obtained an authorization code? Click here to get one",
+    "inputAuthCode": "Please enter the authorization code",
+    "invalidAuthCode": "Invalid or expired authorization code. Please obtain a new one",
+    "verifyFailed": "Verification failed. Please check your network connection"
+  },
+  "ad": {
+    "clickToView": "Click to view"
+  },
+  "toast": {
+    "copied": "Text has been copied to the clipboard",
+    "copyFailed": "Copy failed. Please try again",
+    "noText": "No text available to copy",
+    "selectTextForSpeed": "Please select the text you want to adjust speed first",
+    "selectTextForReread": "Please select the text you want to add re-reading first",
+    "selectNumber": "Please select the number you want to add pronunciation for first",
+    "onlyChinese": "Only Chinese is supported! Please select pure Chinese text",
+    "onlyNumber": "Only numbers can be selected! Please select pure numbers before using this feature",
+    "selectChar": "Please select a Chinese character first",
+    "singleCharOnly": "Please use single-character recognition",
+    "selectChineseChar": "Please select a Chinese character",
+    "notPolyphone": "The current character is not a polyphonic character",
+    "selectTextForVoice": "Please select the text you want to specify a speaker for first",
+    "editorNotInitialized": "Editor has not been initialized",
+    "textTooLong": "Text length exceeds the limit ({count} / {max})",
+    "cleared": "All content has been cleared",
+    "formatCleared": "Formatting has been cleared, keeping only plain text",
+    "noContentToKeep": "No text content to keep",
+    "authCheckFailed": "Authorization check failed. Please check your network connection",
+    "noTextInput": "Please enter text first"
+  },
+  "error": {
+    "networkError": "Network connection failed. Unable to generate audio.\n\nPossible reasons:\n• Unstable network connection\n• Firewall blocking the connection\n• Azure TTS service temporarily unavailable\n\nSuggestions:\n• Check your network connection\n• Try again later",
+    "timeout": "Generation timed out. Please try:\n• Shorten the text length\n• Check your internet speed\n• Try again later",
+    "longTextTimeout": "Generation timed out (text length: {count} characters).\n\nProcessing long texts takes more time. Please try:\n• Wait longer (long texts may take 5–10 minutes)\n• Generate in segments (no more than 1000 characters at a time)\n• Check your internet speed\n• Try again later",
+    "segmentFailed": "Segmentation of long text failed.\n\nSuggestions:\n• Ensure a stable network connection\n• Try shortening the text length\n• Manually merge the audio after generating it in segments",
+    "exportError": "Export failed: {error}",
+    "exportNetworkError": "Network connection failed. Unable to generate audio. Please check your network connection and try again.",
+    "exportTimeout": "Generation timed out. Please try shortening the text or retry later.",
+    "exportLongTextTimeout": "Generation timed out (text length: {count} characters). Processing long texts takes more time. Please wait or try generating in segments.",
+    "longTextDetected": "Long text detected ({count} characters). It will be processed concurrently (approximately {segments} segments). Please wait...",
+    "cancelSuccess": "Generation canceled"
+  },
+  "voices": {
+    "zhiwei": "Yunxi (male)",
+    "xiaoyu": "Xiaoxiao (female)",
+    "xiaofeng": "Yunye (male)",
+    "xiaomei": "Xiaoyi (female)",
+    "yunjian": "Yunjian (male)",
+    "yunxia": "Yunxia (female/child)",
+    "xiaobei": "Xiaobei (female) - Northeastern dialect",
+    "xiaoni": "Xiaoni (female) - Shaanxi dialect",
+    "wanlong": "Yunlong (male) - Hong Kong",
+    "hiugaai": "Xiaojia (female) - Hong Kong Cantonese",
+    "hiumaan": "Xiaoman (female) - Hong Kong",
+    "yunjhe": "Yunzhe (male) - Taiwan",
+    "hsiaochen": "Xiaochen (female) - Taiwan",
+    "hsiaoyu": "Xiaoyu (female) - Taiwan",
+    "description": {
+      "zhiwei": "Lively and energetic, sunny, cheerful, and full of vitality. Suitable for animation narration, short video explanations, young male characters in novels, and light educational videos.",
+      "xiaoyu": "All-emotional, with a gentle, friendly, and natural voice quality that supports various emotions. Suitable for audiobooks, film and TV commentary, emotional radio programs, customer service robots, and long-text reading.",
+      "xiaofeng": "Professional and steady, with a deep, authoritative, and magnetic voice close to traditional radio news anchors. Suitable for news broadcasting, documentary narration, corporate promotional videos, serious academic lectures, and political commentary.",
+      "xiaomei": "Gentle and sweet, with a crisp, sweet, and polite voice like a professional service representative or a caring older sister. Suitable for online customer service, voice assistants, children's stories, shopping mall announcements, and lifestyle tips.",
+      "yunjian": "Passionate and energetic, with a fast speaking pace, strong power, and a dynamic feel. The excited voice is highly infectious. Suitable for sports event commentary, competitive game commentary, promotional advertisements, and 'roaring' narration in short videos.",
+      "yunxia": "Cute and innocent, with a tender, pure, and adorable childlike voice. Suitable for early childhood education, reading picture books for children, voicing very young characters in cartoons, and dubbing cute pet videos.",
+      "xiaobei": "Bold, humorous, and down-to-earth, with the unique humor and charm of people from Northeast China, making it sound very friendly. Suitable for funny skits, lifestyle vlogs, storytelling set in Northeast China, and highly recognizable livestreaming for product sales.",
+      "xiaoni": "Simple, honest, and flavorful, reflecting the local customs and culture of Northwest China. Full of emotion and strength. Suitable for introducing history and culture (such as tourism in Xi'an), promoting local specialty foods, and narrating films and documentaries about rural life in Northwest China.",
+      "wanlong": "Mature, stable, and business-like, with a typical Hong Kong elite tone and standard, professional pronunciation. Suitable for financial news reporting, corporate promotional videos, and commentary on Hong Kong-style business dramas.",
+      "hiugaai": "Soft, intellectual, and authentic—this is a very standard Cantonese pronunciation with a natural feel. Suitable for news broadcasts, radio hosting, and lifestyle guides in Cantonese-speaking regions.",
+      "hiumaan": "Elegant, composed, and scholarly. Compared to Xiaojia, her voice sounds more like that of a learned and serene speaker. Suitable for audiobook narration, documentary narration, and high-end brand advertising.",
+      "yunjhe": "Gentle, refined, and warm—this 'milk-style' voice embodies the typical Taiwanese male pronunciation. The tone is calm and non-aggressive, making it perfect for healing-style short videos, commentary on youth idol dramas, emotional radio programs, and life tip reminders.",
+      "hsiaochen": "Sweet, sunny, and full of energy—this voice sounds like a cheerful, approachable girl next door. It’s highly likable and ideal for entertainment news, variety show narration, youthful vlogs, and morning alarm clocks.",
+      "hsiaoyu": "Professional, clear, and intellectual—this is the quintessential 'Taiwanese Mandarin' anchor style. With crisp articulation and a very friendly demeanor, it’s suitable for educational videos, online course lectures, smart voice assistants, and formal voice guidance scenarios."
+    }
+  }
+}

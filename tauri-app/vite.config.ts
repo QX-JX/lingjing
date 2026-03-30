@@ -22,5 +22,17 @@ export default defineConfig({
   build: {
     outDir: "dist",
     emptyOutDir: true,
+    // 优化构建以减少内存使用
+    chunkSizeWarningLimit: 1000,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'react-vendor': ['react', 'react-dom'],
+          'ui-vendor': ['lucide-react'],
+        },
+      },
+    },
+    // 减少内存使用
+    target: 'es2015',
   },
 });

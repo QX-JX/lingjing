@@ -121,7 +121,7 @@ export function useAudioPlayer(): UseAudioPlayerReturn {
 
       audio.src = audioUrl;
       audio.volume = state.volume;
-      
+
       await audio.play();
 
       setState((prev) => ({

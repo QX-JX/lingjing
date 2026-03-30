@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "tts-export-api": "node api/tts-export-server.cjs"
+  },
+  "dependencies": {
+    "@lixen/edge-tts": "^1.2.6",
+    "docx": "^9.5.2"
+  }
+}

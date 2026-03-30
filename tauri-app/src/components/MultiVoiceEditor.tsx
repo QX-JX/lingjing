@@ -1,7 +1,11 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { X, Plus, Trash2, Play, Users } from 'lucide-react';
 import { useAppStore } from '../store/useAppStore';
 import { getVoiceList, VoiceInfo, generateAudio } from '../services/ttsService';
+import { SegmentEditor, type SegmentEditorRef } from './SegmentEditor';
+import { t } from '../locales';
+// import { useTextEditor } from '../contexts/TextEditorContext'; // 暂时移除，setTextEditorRef 不存在
+import '../components/SegmentEditor.css';
 
 /**
  * 将本地文件路径转换为可用的 URL
@@ -32,6 +36,10 @@ export function MultiVoiceEditor({ isOpen, onClose, onApply }: MultiVoiceEditorP
   const [segments, setSegments] = useState<TextSegment[]>([]);
   const [voices, setVoices] = useState<VoiceInfo[]>([]);
   const [loading, setLoading] = useState(false);
+  // const { setTextEditorRef } = useTextEditor(); // 暂时移除，该方法不存在
+
+  // 为每个段落创建 ref
+  const segmentRefs = useRef<Map<string, SegmentEditorRef>>(new Map());
 
   // 初始化：将文本分割为段落
   useEffect(() => {
@@ -42,7 +50,7 @@ export function MultiVoiceEditor({ isOpen, onClose, onApply }: MultiVoiceEditorP
         id: `segment-${index}`,
         text: part.trim(),
         voiceId: 'zhiwei',
-        voiceName: '解说-知韦(紧凑版)',
+        voiceName: '云希 (男)',
       }));
       setSegments(initialSegments);
     }
@@ -54,6 +62,18 @@ export function MultiVoiceEditor({ isOpen, onClose, onApply }: MultiVoiceEditorP
       loadVoices();
     }
   }, [isOpen]);
+
+  // ESC 键关闭
+  useEffect(() => {
+    if (!isOpen) return;
+    const handleEscape = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        onClose();
+      }
+    };
+    document.addEventListener('keydown', handleEscape);
+    return () => document.removeEventListener('keydown', handleEscape);
+  }, [isOpen, onClose]);
 
   const loadVoices = async () => {
     setLoading(true);
@@ -73,7 +93,7 @@ export function MultiVoiceEditor({ isOpen, onClose, onApply }: MultiVoiceEditorP
       id: `segment-${Date.now()}`,
       text: '',
       voiceId: 'zhiwei',
-      voiceName: '解说-知韦(紧凑版)',
+      voiceName: '云希 (男)',
     };
     setSegments([...segments, newSegment]);
   };
@@ -81,6 +101,7 @@ export function MultiVoiceEditor({ isOpen, onClose, onApply }: MultiVoiceEditorP
   // 删除分段
   const handleDeleteSegment = (id: string) => {
     setSegments(segments.filter(s => s.id !== id));
+    segmentRefs.current.delete(id);
   };
 
   // 更新分段文本
@@ -103,7 +124,7 @@ export function MultiVoiceEditor({ isOpen, onClose, onApply }: MultiVoiceEditorP
   // 预览分段
   const handlePreviewSegment = async (segment: TextSegment) => {
     if (!segment.text.trim()) {
-      alert('请先输入文本');
+      alert(t('toast.noTextInput'));
       return;
     }
 
@@ -123,7 +144,7 @@ export function MultiVoiceEditor({ isOpen, onClose, onApply }: MultiVoiceEditorP
       await audio.play();
     } catch (error) {
       console.error('预览失败:', error);
-      alert(`预览失败: ${error}`);
+      alert(t('backgroundMusic.uploadFailed', { error: String(error) }));
     }
   };
 
@@ -143,6 +164,20 @@ export function MultiVoiceEditor({ isOpen, onClose, onApply }: MultiVoiceEditorP
     onClose();
   };
 
+  // 处理段落编辑器聚焦 - 注册到TextEditorContext
+  const handleSegmentFocus = (segmentId: string) => {
+    const ref = segmentRefs.current.get(segmentId);
+    // if (ref && setTextEditorRef) {
+    //   setTextEditorRef(ref);
+    // }
+  };
+
+  // 处理段落编辑器失焦
+  const handleSegmentBlur = () => {
+    // 可以选择在失焦时清除 textEditorRef
+    // 但为了保持工具栏功能，这里保留引用
+  };
+
   if (!isOpen) return null;
 
   return (
@@ -155,7 +190,7 @@ export function MultiVoiceEditor({ isOpen, onClose, onApply }: MultiVoiceEditorP
         <div className="flex items-center justify-between p-6 border-b border-orange-200">
           <div className="flex items-center gap-3">
             <Users className="w-6 h-6 text-orange-500" />
-            <h2 className="text-xl font-semibold text-gray-800">多发音人编辑</h2>
+            <h2 className="text-xl font-semibold text-gray-800">{t('toolbar.multipleSpeakers')}</h2>
           </div>
           <button
             onClick={onClose}
@@ -169,7 +204,7 @@ export function MultiVoiceEditor({ isOpen, onClose, onApply }: MultiVoiceEditorP
         <div className="flex-1 overflow-y-auto p-6">
           {loading ? (
             <div className="flex items-center justify-center py-12">
-              <div className="text-gray-500">加载中...</div>
+              <div className="text-gray-500">{t('history.loading')}</div>
             </div>
           ) : (
             <div className="space-y-4">
@@ -183,17 +218,25 @@ export function MultiVoiceEditor({ isOpen, onClose, onApply }: MultiVoiceEditorP
                       {index + 1}
                     </div>
                     <div className="flex-1">
-                      <textarea
+                      <SegmentEditor
+                        ref={(ref) => {
+                          if (ref) {
+                            segmentRefs.current.set(segment.id, ref);
+                          } else {
+                            segmentRefs.current.delete(segment.id);
+                          }
+                        }}
                         value={segment.text}
-                        onChange={(e) => handleUpdateSegmentText(segment.id, e.target.value)}
-                        placeholder="输入文本内容..."
-                        className="w-full min-h-[60px] p-3 border border-gray-300 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+                        onChange={(newText) => handleUpdateSegmentText(segment.id, newText)}
+                        placeholder={t('textEditor.placeholder')}
+                        onFocus={() => handleSegmentFocus(segment.id)}
+                        onBlur={handleSegmentBlur}
                       />
                     </div>
                     <button
                       onClick={() => handleDeleteSegment(segment.id)}
                       className="flex-shrink-0 p-2 text-red-500 hover:bg-red-50 rounded-lg transition-colors"
-                      title="删除分段"
+                      title={t('soundEffect.delete')}
                     >
                       <Trash2 className="w-4 h-4" />
                     </button>
@@ -217,7 +260,7 @@ export function MultiVoiceEditor({ isOpen, onClose, onApply }: MultiVoiceEditorP
                       className="flex items-center gap-2 px-4 py-2 bg-orange-500 hover:bg-orange-600 disabled:bg-gray-300 disabled:cursor-not-allowed text-white rounded-lg transition-colors"
                     >
                       <Play className="w-4 h-4" />
-                      <span>预览</span>
+                      <span>{t('voice.preview')}</span>
                     </button>
                   </div>
                 </div>
@@ -228,7 +271,7 @@ export function MultiVoiceEditor({ isOpen, onClose, onApply }: MultiVoiceEditorP
                 className="w-full flex items-center justify-center gap-2 p-4 border-2 border-dashed border-gray-300 rounded-lg hover:border-orange-400 hover:bg-orange-50 transition-colors text-gray-600 hover:text-orange-600"
               >
                 <Plus className="w-5 h-5" />
-                <span>添加分段</span>
+                <span>Add Segment</span>
               </button>
             </div>
           )}
@@ -240,14 +283,14 @@ export function MultiVoiceEditor({ isOpen, onClose, onApply }: MultiVoiceEditorP
             onClick={onClose}
             className="px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors"
           >
-            取消
+            {t('voice.cancel')}
           </button>
           <button
             onClick={handleApply}
             disabled={segments.length === 0 || segments.some(s => !s.text.trim())}
             className="px-6 py-2 bg-orange-500 hover:bg-orange-600 disabled:bg-gray-300 disabled:cursor-not-allowed text-white rounded-lg transition-colors"
           >
-            应用
+            {t('voice.apply')}
           </button>
         </div>
       </div>

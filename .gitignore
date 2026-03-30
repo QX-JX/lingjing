@@ -1,0 +1,104 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+**/dist/
+**/build/
+release/
+release_v1/
+release_v2/
+release_v2_new/
+**/release/
+**/release_v*/
+**/release_v*_*/
+
+# Temporary files
+temp/
+**/temp/
+*.tmp
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+.pytest_cache/
+
+# Logs
+*.log
+build.log
+**/*.log
+logs/
+**/logs/
+
+# Executables
+*.exe
+*.dll
+*.dylib
+*.so
+
+# Test files (large audio files)
+tests/*.mp3
+**/tests/*.mp3
+
+# Audio files (BGM and sound effects - can be large)
+**/sounds/**/*.mp3
+**/sounds/**/*.wav
+**/sounds/**/*.ogg
+
+# Large image files (avatars - optional, can be regenerated)
+# Uncomment the following lines if you want to exclude avatar images
+# **/avatars/*.png
+# **/avatars/*.jpg
+# **/avatars/*.jpeg
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.spec
+*.blockmap
+*.7z
+*.zip
+*.rar
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Package files
+*.pak
+*.asar
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Local desktop tooling and scratch files
+.history/
+.web-export-runtime/
+.venv/
+.cursor/
+.shared/
+temp-signing-*/
+*.docx
+更新/
